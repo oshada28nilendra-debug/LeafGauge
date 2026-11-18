@@ -1,0 +1,13 @@
+__pycache__/
+*.egg-info/
+.venv/
+data/
+outputs/
+*.npz
+observations.json
+
+!artifacts/synthetic_model.npz
+!artifacts/real_apple_model.npz
+!/examples/tracking-demo/observations.json
+
+/examples/synthetic/

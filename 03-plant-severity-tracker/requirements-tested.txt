@@ -1,0 +1,10 @@
+# Direct dependency versions validated on Python 3.12.14, Linux CPU.
+# This is not a complete hash-locked transitive dependency file.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.3.5
+Pillow==13.0.0
+scipy==1.17.0
+scikit-learn==1.8.0
+torch==2.15.0+cpu
+torchvision==0.29.2+cpu
+matplotlib==3.10.8

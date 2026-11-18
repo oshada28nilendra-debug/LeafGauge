@@ -1,0 +1,3879 @@
+{
+  "kind": "real_atldsd_custom_grouped_subset",
+  "crop": "apple",
+  "seed": 18,
+  "description": "Real apple leaf photographs with source semantic leaf/lesion annotations; custom category-balanced grouped subset, not an official benchmark protocol",
+  "source": "https://doi.org/10.11922/sciencedb.01627",
+  "creators": [
+    "Jingze Feng",
+    "Xiaofei Chao"
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "archive_md5": "7441604c86d65090606e40dc7d1f8540",
+  "archive_sha256": "6e636eac03bf22a3b3a299eef142d02c4bd15e75f3ad33853da43f471f1f8f6a",
+  "candidate_images": 1641,
+  "near_duplicate_grouping": "64-bit grayscale dHash Hamming distance <=3 or exact decoded content; one representative/group",
+  "dropped_cross_category_groups": 5,
+  "train": [
+    {
+      "image": "train/alternaria-leaf-spot_000418.jpg",
+      "mask": "train/alternaria-leaf-spot_000418_mask.png",
+      "group": "group-00005",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000418.jpg",
+      "source_mask": "Alternaria leaf spot/label/000418.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "77cc5d60a6ef2b2241010af8d6e587c2832acd6f9c91ee83304037f81ac1a54b"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_004047.jpg",
+      "mask": "train/alternaria-leaf-spot_004047_mask.png",
+      "group": "group-00245",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/004047.jpg",
+      "source_mask": "Alternaria leaf spot/label/004047.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "8c331e8755bfd00e509b5ce36d9a182802154956f2373a82a9e36029783d5837"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000478.jpg",
+      "mask": "train/alternaria-leaf-spot_000478_mask.png",
+      "group": "group-00052",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000478.jpg",
+      "source_mask": "Alternaria leaf spot/label/000478.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "424e5bc301aaf46b70bcb086e7b4677f1270c45aa646f85dc1674ce967ca6662"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000732.jpg",
+      "mask": "train/alternaria-leaf-spot_000732_mask.png",
+      "group": "group-00149",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000732.jpg",
+      "source_mask": "Alternaria leaf spot/label/000732.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "ad4849062aeb0673e36576a880c1a6b4dfad5dafedcbb6eea6a17babd17cf2f8"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000818.jpg",
+      "mask": "train/alternaria-leaf-spot_000818_mask.png",
+      "group": "group-00218",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000818.jpg",
+      "source_mask": "Alternaria leaf spot/label/000818.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "0fba18a63b354c074b92f21a714b9b4fd6f209c647b3174a9da6dd366f8c39c4"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000798.jpg",
+      "mask": "train/alternaria-leaf-spot_000798_mask.png",
+      "group": "group-00206",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000798.jpg",
+      "source_mask": "Alternaria leaf spot/label/000798.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "35334122a178c9ac07490568fce29fb5c2a64544cdcb1e5bf685c0ff4d3c4885"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000810.jpg",
+      "mask": "train/alternaria-leaf-spot_000810_mask.png",
+      "group": "group-00213",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000810.jpg",
+      "source_mask": "Alternaria leaf spot/label/000810.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "5844f8ba2d3d5a746e3de6fc5df0cb9a613343a9a2cc48cbd20a5bae44348788"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000512.jpg",
+      "mask": "train/alternaria-leaf-spot_000512_mask.png",
+      "group": "group-00076",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000512.jpg",
+      "source_mask": "Alternaria leaf spot/label/000512.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "ac2d6e91f994e8837010f1d5e1b4b9ec97e222662572611e76c5f3c0cdea2150"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000731.jpg",
+      "mask": "train/alternaria-leaf-spot_000731_mask.png",
+      "group": "group-00148",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000731.jpg",
+      "source_mask": "Alternaria leaf spot/label/000731.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "85cc74a41aa5816bfbeda9e2cd712967acd9b5a78597aa208d589149473a2551"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000744.jpg",
+      "mask": "train/alternaria-leaf-spot_000744_mask.png",
+      "group": "group-00161",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000744.jpg",
+      "source_mask": "Alternaria leaf spot/label/000744.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "35bed3ef05c51805e5ba4774cb2abf0a385d13f78ff6c0d3d44329e1b3c86173"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_004061.jpg",
+      "mask": "train/alternaria-leaf-spot_004061_mask.png",
+      "group": "group-00252",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/004061.jpg",
+      "source_mask": "Alternaria leaf spot/label/004061.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "d41d49cf01a466cb69fceb6e8f7b8f7543ba3ef324000577d7dced7328c48915"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000429.jpg",
+      "mask": "train/alternaria-leaf-spot_000429_mask.png",
+      "group": "group-00014",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000429.jpg",
+      "source_mask": "Alternaria leaf spot/label/000429.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "da274a80d02041adba744f22f370fb2cb7b70a5dda647da4ca8dddc59b41e88f"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000537.jpg",
+      "mask": "train/alternaria-leaf-spot_000537_mask.png",
+      "group": "group-00098",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000537.jpg",
+      "source_mask": "Alternaria leaf spot/label/000537.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "1e75efabc8788067db3c29513fb8fa70d4dc3a8116fe7a26526f918dbe049407"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000506.jpg",
+      "mask": "train/alternaria-leaf-spot_000506_mask.png",
+      "group": "group-00070",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000506.jpg",
+      "source_mask": "Alternaria leaf spot/label/000506.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "5d7a0b299e307b45644f9125a524d0c663fd85fdf02d361a3a943dba3690cfb1"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000474.jpg",
+      "mask": "train/alternaria-leaf-spot_000474_mask.png",
+      "group": "group-00049",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000474.jpg",
+      "source_mask": "Alternaria leaf spot/label/000474.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "667a77b15541c5b2259fc8bbb4ebef8912372f8c40dae70795c3a35d520ac587"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000502.jpg",
+      "mask": "train/alternaria-leaf-spot_000502_mask.png",
+      "group": "group-00066",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000502.jpg",
+      "source_mask": "Alternaria leaf spot/label/000502.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "4dbf715fa74bc31ac33cd6c5b38de08d1ca39aee4345405e12ad5cef46b2c659"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000479.jpg",
+      "mask": "train/alternaria-leaf-spot_000479_mask.png",
+      "group": "group-00053",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000479.jpg",
+      "source_mask": "Alternaria leaf spot/label/000479.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "bb669ecec0beceee6df4461bd29514e868ef7754aae055e942fa3186c59d5d52"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000697.jpg",
+      "mask": "train/alternaria-leaf-spot_000697_mask.png",
+      "group": "group-00125",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000697.jpg",
+      "source_mask": "Alternaria leaf spot/label/000697.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "8fb3bb9349c5ff7b118b0344f95d093b6f0bdfe66a5630e75c3449db1321dc56"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000473.jpg",
+      "mask": "train/alternaria-leaf-spot_000473_mask.png",
+      "group": "group-00048",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000473.jpg",
+      "source_mask": "Alternaria leaf spot/label/000473.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "2c3b65f3f5b04828a7ff2f29db76052c7a661e5399885b3d1f751bcb85a17b2f"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_004005.jpg",
+      "mask": "train/alternaria-leaf-spot_004005_mask.png",
+      "group": "group-00224",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/004005.jpg",
+      "source_mask": "Alternaria leaf spot/label/004005.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "da993829449b90fdd9b6a79b1a998d69dae801c44f2890817fc734979d8a0927"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000729.jpg",
+      "mask": "train/alternaria-leaf-spot_000729_mask.png",
+      "group": "group-00146",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000729.jpg",
+      "source_mask": "Alternaria leaf spot/label/000729.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "b7ee2b80465cbcc965cf30b9bd61289db6b91e541943dff2b1a1dd8d5adade91"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000535.jpg",
+      "mask": "train/alternaria-leaf-spot_000535_mask.png",
+      "group": "group-00096",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000535.jpg",
+      "source_mask": "Alternaria leaf spot/label/000535.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "a3e2327008f8ff92cf3d982271e360dc6960c340da090d7e86ddc013a3145c85"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000436.jpg",
+      "mask": "train/alternaria-leaf-spot_000436_mask.png",
+      "group": "group-00021",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000436.jpg",
+      "source_mask": "Alternaria leaf spot/label/000436.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "596355790bf44f386ce5e9cca3ee68bdd0dc5e7858498e18fcda02c145b56be7"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000712.jpg",
+      "mask": "train/alternaria-leaf-spot_000712_mask.png",
+      "group": "group-00135",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000712.jpg",
+      "source_mask": "Alternaria leaf spot/label/000712.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "e842012214a3e398dc39dd097431dca38e15c2a1958d8739d04283edbf638427"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000520.jpg",
+      "mask": "train/alternaria-leaf-spot_000520_mask.png",
+      "group": "group-00083",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000520.jpg",
+      "source_mask": "Alternaria leaf spot/label/000520.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "a47951a244acf6550e2d97e6e649a748d9b1f91c3632d4e0db55ac29c41a4266"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000709.jpg",
+      "mask": "train/alternaria-leaf-spot_000709_mask.png",
+      "group": "group-00133",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000709.jpg",
+      "source_mask": "Alternaria leaf spot/label/000709.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "7c676acaae4e42939214135dc885857de513534fe83e7623a3e289b67b25e23d"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000708.jpg",
+      "mask": "train/alternaria-leaf-spot_000708_mask.png",
+      "group": "group-00132",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000708.jpg",
+      "source_mask": "Alternaria leaf spot/label/000708.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "02524332853d730c8ad1a494798d7f05dd9af5ba7b90768263f3e3a5fcd8f4f0"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000529.jpg",
+      "mask": "train/alternaria-leaf-spot_000529_mask.png",
+      "group": "group-00091",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000529.jpg",
+      "source_mask": "Alternaria leaf spot/label/000529.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "d5055941e0305c5ea2422b46ce19e258b1e4a772c8e8e823bb9fa59b7a0daa3e"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000784.jpg",
+      "mask": "train/alternaria-leaf-spot_000784_mask.png",
+      "group": "group-00197",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000784.jpg",
+      "source_mask": "Alternaria leaf spot/label/000784.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "bf4ef04732f93096961745a88295236b718126ffc09a283f688bf65aa71ea7ac"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000795.jpg",
+      "mask": "train/alternaria-leaf-spot_000795_mask.png",
+      "group": "group-00203",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000795.jpg",
+      "source_mask": "Alternaria leaf spot/label/000795.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "721cb07d9a40e86c7dc6c8d1057a4b12fc3a5c89eafcf80aaea7e0bce233456e"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000455.jpg",
+      "mask": "train/alternaria-leaf-spot_000455_mask.png",
+      "group": "group-00036",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000455.jpg",
+      "source_mask": "Alternaria leaf spot/label/000455.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "4f96a4d4b8e3a09312ffc0624d73407a7963b9ce2c671db74e32afefdaf80fe6"
+    },
+    {
+      "image": "train/alternaria-leaf-spot_000505.jpg",
+      "mask": "train/alternaria-leaf-spot_000505_mask.png",
+      "group": "group-00069",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000505.jpg",
+      "source_mask": "Alternaria leaf spot/label/000505.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "e7c27cc085acbaced6dd902c82d77481b74f130912471677e87dd5312813a4bf"
+    },
+    {
+      "image": "train/brown-spot_001817.jpg",
+      "mask": "train/brown-spot_001817_mask.png",
+      "group": "group-00433",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001817.jpg",
+      "source_mask": "Brown spot/label/001817.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "f98e3b88f0b92d9c3f87ee2498a3285aabd7d2375ea681495494806528c57efc"
+    },
+    {
+      "image": "train/brown-spot_\u8910\u6591\u75c5IMG_20190726_190344.jpg",
+      "mask": "train/brown-spot_\u8910\u6591\u75c5IMG_20190726_190344_mask.png",
+      "group": "group-00485",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/\u8910\u6591\u75c5IMG_20190726_190344.jpg",
+      "source_mask": "Brown spot/label/\u8910\u6591\u75c5IMG_20190726_190344.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "35085df430db76196f8df8ea375781ada7e7019dd6535d8d851c5742797b868e"
+    },
+    {
+      "image": "train/brown-spot_001081.jpg",
+      "mask": "train/brown-spot_001081_mask.png",
+      "group": "group-00293",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001081.jpg",
+      "source_mask": "Brown spot/label/001081.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "e24123e3a22f8f35bc261a627624ac3d8f9b47b39a18586c3ddac1c22e8d463a"
+    },
+    {
+      "image": "train/brown-spot_001181.jpg",
+      "mask": "train/brown-spot_001181_mask.png",
+      "group": "group-00313",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001181.jpg",
+      "source_mask": "Brown spot/label/001181.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "b31ea61130ca39209f56b27cc00dee396eb911df7598aefda9730d6de43a9232"
+    },
+    {
+      "image": "train/brown-spot_001093.jpg",
+      "mask": "train/brown-spot_001093_mask.png",
+      "group": "group-00296",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001093.jpg",
+      "source_mask": "Brown spot/label/001093.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "1262280413a59a4a1e91d4148578d02ae7e01b54458ce229bbce0eb095d84c30"
+    },
+    {
+      "image": "train/brown-spot_001277.jpg",
+      "mask": "train/brown-spot_001277_mask.png",
+      "group": "group-00342",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001277.JPG",
+      "source_mask": "Brown spot/label/001277.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "b8a672e25a952ab121ba70b09f2b65b0974b4cdcac4a6a01f4017cc790a0fc2f"
+    },
+    {
+      "image": "train/brown-spot_001231.jpg",
+      "mask": "train/brown-spot_001231_mask.png",
+      "group": "group-00327",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001231.JPG",
+      "source_mask": "Brown spot/label/001231.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "73560856eee72185bb383c20b524682b8164550d9818011fc988ed0024ee6490"
+    },
+    {
+      "image": "train/brown-spot_IMG_20190727_165250.jpg",
+      "mask": "train/brown-spot_IMG_20190727_165250_mask.png",
+      "group": "group-00469",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165250.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165250.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "9587343178fee2ce155694c9e29adf2b070da95fc47af69c0c4f08bc5fc0fbc1"
+    },
+    {
+      "image": "train/brown-spot_001867.jpg",
+      "mask": "train/brown-spot_001867_mask.png",
+      "group": "group-00451",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001867.jpg",
+      "source_mask": "Brown spot/label/001867.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "2c1721c8f5cadb48d05bd3ff5a0d6583cdf2d3adf3a4fe4cc25d5d407586dd68"
+    },
+    {
+      "image": "train/brown-spot_001815.jpg",
+      "mask": "train/brown-spot_001815_mask.png",
+      "group": "group-00432",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001815.jpg",
+      "source_mask": "Brown spot/label/001815.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "2991677d97a742b5d0496e7e4c18409cf0c21b2e6c390541d5dac51ebbd7a817"
+    },
+    {
+      "image": "train/brown-spot_001251.jpg",
+      "mask": "train/brown-spot_001251_mask.png",
+      "group": "group-00335",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001251.JPG",
+      "source_mask": "Brown spot/label/001251.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "547f3ba75a0f5fb6cffbb8897f3c0181bedfeae7dd5d08bc6caa3599da6b8f0d"
+    },
+    {
+      "image": "train/brown-spot_IMG_20190727_165139.jpg",
+      "mask": "train/brown-spot_IMG_20190727_165139_mask.png",
+      "group": "group-00466",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165139.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165139.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "2953697187ae04723174a6e2f399755f361a71a4fc45e2ef4d75b19cf0d58afe"
+    },
+    {
+      "image": "train/brown-spot_IMG_20190726_192821.jpg",
+      "mask": "train/brown-spot_IMG_20190726_192821_mask.png",
+      "group": "group-00455",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190726_192821.jpg",
+      "source_mask": "Brown spot/label/IMG_20190726_192821.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "01f0df6c753c949f4b457208676840feeb2d4534622e61cda297fbca1f97dd30"
+    },
+    {
+      "image": "train/brown-spot_001427.jpg",
+      "mask": "train/brown-spot_001427_mask.png",
+      "group": "group-00353",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001427.JPG",
+      "source_mask": "Brown spot/label/001427.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "aea5311a32d7d758a7578c87f5165bb8e93dc034b90dd3548c3b3ee98695427c"
+    },
+    {
+      "image": "train/brown-spot_IMG_20190727_170532.jpg",
+      "mask": "train/brown-spot_IMG_20190727_170532_mask.png",
+      "group": "group-00483",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_170532.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_170532.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "e1941c8af2b8cbfbb93ad98044a63301ea0ba56ea9f502f96769a120b5511fd3"
+    },
+    {
+      "image": "train/brown-spot_IMG_20190727_165528.jpg",
+      "mask": "train/brown-spot_IMG_20190727_165528_mask.png",
+      "group": "group-00473",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165528.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165528.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "cec3fc47c0cbec3802fd0cfe7c00db752c69d281916c28032f795169a7024463"
+    },
+    {
+      "image": "train/brown-spot_001075.jpg",
+      "mask": "train/brown-spot_001075_mask.png",
+      "group": "group-00291",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001075.jpg",
+      "source_mask": "Brown spot/label/001075.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "b23a0075051c8694d9600d4bf1a8fc683d1f6c2081dda068fa60916cb12ade40"
+    },
+    {
+      "image": "train/brown-spot_IMG_20190727_170020.jpg",
+      "mask": "train/brown-spot_IMG_20190727_170020_mask.png",
+      "group": "group-00481",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_170020.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_170020.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "4b4ef0b6eae3ee1da9a2b5d9ffb5967f6a04d0d550ca965a3e017ef0fa34a53e"
+    },
+    {
+      "image": "train/brown-spot_001829.jpg",
+      "mask": "train/brown-spot_001829_mask.png",
+      "group": "group-00438",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001829.jpg",
+      "source_mask": "Brown spot/label/001829.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "30b03ffee3add4280603a572ad9ce5bfd2526c8b3ecac7d8b9d32c2dbafb9fc1"
+    },
+    {
+      "image": "train/brown-spot_001441.jpg",
+      "mask": "train/brown-spot_001441_mask.png",
+      "group": "group-00355",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001441.JPG",
+      "source_mask": "Brown spot/label/001441.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "2950e658246f9a5f9675728527dd4c0b56aaac3940ce08a83781d25be45192ca"
+    },
+    {
+      "image": "train/brown-spot_\u8910\u6591\u75c5IMG_20190726_192226.jpg",
+      "mask": "train/brown-spot_\u8910\u6591\u75c5IMG_20190726_192226_mask.png",
+      "group": "group-00490",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/\u8910\u6591\u75c5IMG_20190726_192226.jpg",
+      "source_mask": "Brown spot/label/\u8910\u6591\u75c5IMG_20190726_192226.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "ead22cf4d3719f3fb78333840b5b00f0dc66d452a582a40f2ac863fc804100e3"
+    },
+    {
+      "image": "train/brown-spot_001797.jpg",
+      "mask": "train/brown-spot_001797_mask.png",
+      "group": "group-00426",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001797.jpg",
+      "source_mask": "Brown spot/label/001797.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "7d3a7835b2639af58873d8ab1d07f747ae7ea8d9741ea1ee329213f78dedc59c"
+    },
+    {
+      "image": "train/brown-spot_001505.jpg",
+      "mask": "train/brown-spot_001505_mask.png",
+      "group": "group-00374",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001505.JPG",
+      "source_mask": "Brown spot/label/001505.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "1c80d80d329d22f0caf333e62ec2caecc5a28173164a4724b6b3000b9d2d64a9"
+    },
+    {
+      "image": "train/brown-spot_001737.jpg",
+      "mask": "train/brown-spot_001737_mask.png",
+      "group": "group-00414",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001737.jpg",
+      "source_mask": "Brown spot/label/001737.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "474d537d8d408dd6484f1501a75365cbb50cbd99c105c12f8eb8d799f12c3784"
+    },
+    {
+      "image": "train/brown-spot_001255.jpg",
+      "mask": "train/brown-spot_001255_mask.png",
+      "group": "group-00336",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001255.JPG",
+      "source_mask": "Brown spot/label/001255.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "ac46faa00d6ca3837d55b9bdca20006937534051441e763175d2a21804fba324"
+    },
+    {
+      "image": "train/brown-spot_001493.jpg",
+      "mask": "train/brown-spot_001493_mask.png",
+      "group": "group-00370",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001493.JPG",
+      "source_mask": "Brown spot/label/001493.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "4700783ea3b62d250dc841c939c6323147df002238b7a8eb627f87d971c6d44c"
+    },
+    {
+      "image": "train/brown-spot_001865.jpg",
+      "mask": "train/brown-spot_001865_mask.png",
+      "group": "group-00450",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001865.jpg",
+      "source_mask": "Brown spot/label/001865.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "a12e3303221e8f02ab302362e824da45d4b69757ffeb04222508da19b2b02372"
+    },
+    {
+      "image": "train/brown-spot_\u8910\u6591\u75c5IMG_20190726_193224.jpg",
+      "mask": "train/brown-spot_\u8910\u6591\u75c5IMG_20190726_193224_mask.png",
+      "group": "group-00491",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/\u8910\u6591\u75c5IMG_20190726_193224.jpg",
+      "source_mask": "Brown spot/label/\u8910\u6591\u75c5IMG_20190726_193224.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "4fb91cc035e0100b0b8080275cb2ee8f9858e8c64d48364e42393722490c3a12"
+    },
+    {
+      "image": "train/brown-spot_001025.jpg",
+      "mask": "train/brown-spot_001025_mask.png",
+      "group": "group-00284",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001025.jpg",
+      "source_mask": "Brown spot/label/001025.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "10ce7dcaee072a5f41d3279163be7164a4593b30466e70ac5b542d217a12bfe8"
+    },
+    {
+      "image": "train/brown-spot_001537.jpg",
+      "mask": "train/brown-spot_001537_mask.png",
+      "group": "group-00384",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001537.JPG",
+      "source_mask": "Brown spot/label/001537.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "50e8d8016c4bc490bc2a2fb82d1ca681b633dcd2645e380b91fcfed4f14444f9"
+    },
+    {
+      "image": "train/brown-spot_001073.jpg",
+      "mask": "train/brown-spot_001073_mask.png",
+      "group": "group-00290",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001073.jpg",
+      "source_mask": "Brown spot/label/001073.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "77c3b87f0ec25668a2334d214cb85a31238cda6f29f6e43d0bafcef2ee921d3c"
+    },
+    {
+      "image": "train/brown-spot_IMG_20190727_165626.jpg",
+      "mask": "train/brown-spot_IMG_20190727_165626_mask.png",
+      "group": "group-00475",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165626.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165626.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "d42562ad00a771f8e02feb6ee75ee3db9f3d829dc1f55840a38aa71f975e0bed"
+    },
+    {
+      "image": "train/gray-spot_003365.jpg",
+      "mask": "train/gray-spot_003365_mask.png",
+      "group": "group-00678",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003365.JPG",
+      "source_mask": "Gray spot/label/003365.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "2456eb46ef731efb455270c4499433c3e51f541776a9c4e359474998a45459a0"
+    },
+    {
+      "image": "train/gray-spot_003285.jpg",
+      "mask": "train/gray-spot_003285_mask.png",
+      "group": "group-00638",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003285.JPG",
+      "source_mask": "Gray spot/label/003285.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "645cdeecf5ce6db39a9fe3417647862d6fe5869b96dc40e43456703fb6ae4325"
+    },
+    {
+      "image": "train/gray-spot_003253.jpg",
+      "mask": "train/gray-spot_003253_mask.png",
+      "group": "group-00622",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003253.JPG",
+      "source_mask": "Gray spot/label/003253.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "13e0c1d1af7d028f44c60cfa51a7b7508c335a804c6610c717a95350bc1eadf6"
+    },
+    {
+      "image": "train/gray-spot_003245.jpg",
+      "mask": "train/gray-spot_003245_mask.png",
+      "group": "group-00618",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003245.JPG",
+      "source_mask": "Gray spot/label/003245.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "766eb22a9ab0a81c49c566b0095bb7afd09ad6c746deb742b5b2ffe26929e320"
+    },
+    {
+      "image": "train/gray-spot_003283.jpg",
+      "mask": "train/gray-spot_003283_mask.png",
+      "group": "group-00637",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003283.JPG",
+      "source_mask": "Gray spot/label/003283.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "5f6b851ea63ec5a135a450050f3dd99f30c30e822defface374ebc37c067e7d0"
+    },
+    {
+      "image": "train/gray-spot_IMG_20190727_150602.jpg",
+      "mask": "train/gray-spot_IMG_20190727_150602_mask.png",
+      "group": "group-00871",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/IMG_20190727_150602.jpg",
+      "source_mask": "Gray spot/label/IMG_20190727_150602.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "610a10295d8ad868c0caed5dbf3ec7151384c5362ff6cd06557d69f75d553e25"
+    },
+    {
+      "image": "train/gray-spot_003521.jpg",
+      "mask": "train/gray-spot_003521_mask.png",
+      "group": "group-00709",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003521.jpg",
+      "source_mask": "Gray spot/label/003521.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "8ee54d48d9456c24f2b17cc4351b7977f4d3f4604708fbb0fb1c86d655aa8072"
+    },
+    {
+      "image": "train/gray-spot_003613.jpg",
+      "mask": "train/gray-spot_003613_mask.png",
+      "group": "group-00754",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003613.jpg",
+      "source_mask": "Gray spot/label/003613.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "aa9fecec1aafb9a78b145eae0858f09b78cd8c65bf637d26c5b95892908c8694"
+    },
+    {
+      "image": "train/gray-spot_003621.jpg",
+      "mask": "train/gray-spot_003621_mask.png",
+      "group": "group-00758",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003621.jpg",
+      "source_mask": "Gray spot/label/003621.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "10103bc2f3797c4e99d70ff8275bcf683371b885d458c01b463d5b707e7ad604"
+    },
+    {
+      "image": "train/gray-spot_003167.jpg",
+      "mask": "train/gray-spot_003167_mask.png",
+      "group": "group-00580",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003167.JPG",
+      "source_mask": "Gray spot/label/003167.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "617abdcf093f230b56d981fbe556c181bcc58c3967461e6415bb95c5360c2ab9"
+    },
+    {
+      "image": "train/gray-spot_003677.jpg",
+      "mask": "train/gray-spot_003677_mask.png",
+      "group": "group-00786",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003677.jpg",
+      "source_mask": "Gray spot/label/003677.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "46a9b300af327e064521768c3e6981e4587c25bb7ef5dcc4a4c158cda5d9d6c6"
+    },
+    {
+      "image": "train/gray-spot_003347.jpg",
+      "mask": "train/gray-spot_003347_mask.png",
+      "group": "group-00669",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003347.JPG",
+      "source_mask": "Gray spot/label/003347.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "2afa29b69b3ca07e35a4d9941f9a3870d796f5922fd940a5d8e914c6ee206812"
+    },
+    {
+      "image": "train/gray-spot_20190726_195205.jpg",
+      "mask": "train/gray-spot_20190726_195205_mask.png",
+      "group": "group-00854",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/20190726_195205.jpg",
+      "source_mask": "Gray spot/label/20190726_195205.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "72be8fac5ff006321353479a2f8a742cc0cc447d088cd57e04df7e0b94c9f6ad"
+    },
+    {
+      "image": "train/gray-spot_20190726_193116.jpg",
+      "mask": "train/gray-spot_20190726_193116_mask.png",
+      "group": "group-00830",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/20190726_193116.jpg",
+      "source_mask": "Gray spot/label/20190726_193116.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "860c615af2a964375b8077b59b88a80b9528307708f134a2d491f53e9ebba1fb"
+    },
+    {
+      "image": "train/gray-spot_003633.jpg",
+      "mask": "train/gray-spot_003633_mask.png",
+      "group": "group-00764",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003633.jpg",
+      "source_mask": "Gray spot/label/003633.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "50b3ec69ddba628bfbf911908c91e2bc6d23d0282d1fad595e74bac65d27d379"
+    },
+    {
+      "image": "train/gray-spot_003075.jpg",
+      "mask": "train/gray-spot_003075_mask.png",
+      "group": "group-00534",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003075.jpg",
+      "source_mask": "Gray spot/label/003075.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "2d24aa531eb6c6eb2c5e8c32d67ed755d560a578c8e45cc8429a0fafe4078316"
+    },
+    {
+      "image": "train/gray-spot_003169.jpg",
+      "mask": "train/gray-spot_003169_mask.png",
+      "group": "group-00581",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003169.jpg",
+      "source_mask": "Gray spot/label/003169.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "e5ff66d04ad6014ce2cf1b4ed918595971a3c2ee943de20e87b97569f94a8733"
+    },
+    {
+      "image": "train/gray-spot_003705.jpg",
+      "mask": "train/gray-spot_003705_mask.png",
+      "group": "group-00800",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003705.jpg",
+      "source_mask": "Gray spot/label/003705.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "457e245e5db55b7c38ccb10b449705388d9bce818a63b670aef802d0a6243324"
+    },
+    {
+      "image": "train/gray-spot_003691.jpg",
+      "mask": "train/gray-spot_003691_mask.png",
+      "group": "group-00793",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003691.jpg",
+      "source_mask": "Gray spot/label/003691.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "4b2b18897cf653e25755f6e49cd495e146d1a7b5728447af2df92a4f51f0d5ee"
+    },
+    {
+      "image": "train/gray-spot_003133.jpg",
+      "mask": "train/gray-spot_003133_mask.png",
+      "group": "group-00563",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003133.JPG",
+      "source_mask": "Gray spot/label/003133.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "db9de717772e9c0b26575c9881639900fa07ca6c9b3177be8490c90fe192522b"
+    },
+    {
+      "image": "train/gray-spot_003641.jpg",
+      "mask": "train/gray-spot_003641_mask.png",
+      "group": "group-00768",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003641.jpg",
+      "source_mask": "Gray spot/label/003641.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "be52486a6c840fd3f4c74c4915a4de39aab733ab8bf2cc9d77392388576d479b"
+    },
+    {
+      "image": "train/gray-spot_003113.jpg",
+      "mask": "train/gray-spot_003113_mask.png",
+      "group": "group-00553",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003113.jpg",
+      "source_mask": "Gray spot/label/003113.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "f6d8127986a857c98203cd915e05960b68774837c762d802a570065936a11f58"
+    },
+    {
+      "image": "train/gray-spot_20190726_191501.jpg",
+      "mask": "train/gray-spot_20190726_191501_mask.png",
+      "group": "group-00820",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/20190726_191501.jpg",
+      "source_mask": "Gray spot/label/20190726_191501.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "ffbd4524ff1880362c0f2f6c294d85599077a0c0e99cb1df1143c6cc6c1d6b7c"
+    },
+    {
+      "image": "train/gray-spot_003293.jpg",
+      "mask": "train/gray-spot_003293_mask.png",
+      "group": "group-00642",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003293.JPG",
+      "source_mask": "Gray spot/label/003293.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "cbce2e60674f531cce33e225c4b0a94451aceca442adfdf49014a0d9fc1124c1"
+    },
+    {
+      "image": "train/gray-spot_003327.jpg",
+      "mask": "train/gray-spot_003327_mask.png",
+      "group": "group-00659",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003327.JPG",
+      "source_mask": "Gray spot/label/003327.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "eab44ace76c2036b10ff0db106e4c30f79a2bc1b4a1b9ba9664ae6e9a2205fb4"
+    },
+    {
+      "image": "train/gray-spot_003737.jpg",
+      "mask": "train/gray-spot_003737_mask.png",
+      "group": "group-00816",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003737.jpg",
+      "source_mask": "Gray spot/label/003737.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "53cbf89cd70fde41e7c903ce0947a058d927c35f305d078b6f1ef9ad623c4372"
+    },
+    {
+      "image": "train/gray-spot_003073.jpg",
+      "mask": "train/gray-spot_003073_mask.png",
+      "group": "group-00533",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003073.JPG",
+      "source_mask": "Gray spot/label/003073.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "ffb4044acb6fdb8418b440f841a94a83a1286940bd5cf1e7be2a79ca01ca982a"
+    },
+    {
+      "image": "train/gray-spot_003163.jpg",
+      "mask": "train/gray-spot_003163_mask.png",
+      "group": "group-00578",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003163.jpg",
+      "source_mask": "Gray spot/label/003163.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "845ba1d209632f67317278f4d73ce8320d368a35391ea52f447d6d174142ecc3"
+    },
+    {
+      "image": "train/gray-spot_003729.jpg",
+      "mask": "train/gray-spot_003729_mask.png",
+      "group": "group-00812",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003729.jpg",
+      "source_mask": "Gray spot/label/003729.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "789fa14308cd2de2eb55ee59e9dd2c3d376c58bf60963d6334d8f86b038ceddb"
+    },
+    {
+      "image": "train/gray-spot_003205.jpg",
+      "mask": "train/gray-spot_003205_mask.png",
+      "group": "group-00599",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003205.jpg",
+      "source_mask": "Gray spot/label/003205.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "42dbcff14314b93d3a4bc1a784182b9d7922b539ea4053817f0c897096297b5c"
+    },
+    {
+      "image": "train/gray-spot_003147.jpg",
+      "mask": "train/gray-spot_003147_mask.png",
+      "group": "group-00570",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003147.jpg",
+      "source_mask": "Gray spot/label/003147.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "c9fd4af1f815c00c3df0d26065f9086daa70d72f679c6a3f409e23ab42eadbcf"
+    },
+    {
+      "image": "train/gray-spot_003713.jpg",
+      "mask": "train/gray-spot_003713_mask.png",
+      "group": "group-00804",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003713.jpg",
+      "source_mask": "Gray spot/label/003713.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "a96f36c2a938937125e0f60ab99727ef910b286686a4a7c8dd4a8a5fb220053d"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193429.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193429_mask.png",
+      "group": "group-01073",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193429.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193429.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "70a9a7f040cc713714f85226823d39718bccad7e5b991dc9513b725fa69d1643"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_195552.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_195552_mask.png",
+      "group": "group-01221",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195552.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195552.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "f1b4d5261ba338f7c501d876a033e983aa65348a25e0385e47edb3a3ce5a221e"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_195822.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_195822_mask.png",
+      "group": "group-01240",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195822.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195822.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "9627520e3e67b6bd63f60b23261c98d3679e4c8adeaf5a1af64de0f7f40c4bca"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193502.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193502_mask.png",
+      "group": "group-01078",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193502.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193502.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "ac347c6d95e2ec3be73fded3821559a2b068e7cef2176354bd06be3c8f99142f"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_192004.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_192004_mask.png",
+      "group": "group-00945",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192004.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192004.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "f5e4737c8c0705749ef95e5aee94ba8cde27b85cb6a199768a85510df22e2659"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193812.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193812_mask.png",
+      "group": "group-01103",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193812.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193812.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "d5602952b23cc872ba055774df1bfd55d8fbea0f625257ab38d2324adef233eb"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_195613.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_195613_mask.png",
+      "group": "group-01225",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195613.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195613.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "42d95f77ee5f4ed76d6d0941fb9957ea3b82e0b4ca0086c2de6122f8242945cb"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_194919.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_194919_mask.png",
+      "group": "group-01174",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_194919.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_194919.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "ad753effe742a8f37a81c52feaad8c7ae8ec177de1662de2b75e163fad06990b"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_192429.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_192429_mask.png",
+      "group": "group-00988",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192429.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192429.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "45cb7ff7dafd6cb6202709c58335a754062062000450495585ae58cc35bc327f"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_195943.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_195943_mask.png",
+      "group": "group-01249",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195943.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195943.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "6f8dfbd25702c3ea023ece820a4ef0fb05f7c8fc958401781ee0e5584e27dce0"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_200233.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_200233_mask.png",
+      "group": "group-01270",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_200233.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_200233.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "e2556d0b63d8631ec3192845ff3b176e70c01e62ea508f7ca3126b98dec355c8"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_191804.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_191804_mask.png",
+      "group": "group-00927",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_191804.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_191804.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "c6d276055685c107b6182392433aad9156405cc5020b6a4807163338bf0821da"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193817.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193817_mask.png",
+      "group": "group-01104",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193817.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193817.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "dd57d13144074cd4706bde4069fa4e9a9b0ac16e597b9898d24b27cf7659c274"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_191333.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_191333_mask.png",
+      "group": "group-00906",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_191333.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_191333.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "1c41ec45542463eff03df860702aa13d45d2073fab3087c42fa5ea42f43ba8ae"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193436.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193436_mask.png",
+      "group": "group-01075",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193436.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193436.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "4575cd9a01b706e830fe11d1407c2f668d4c9d7bc7ba2c5bff57b2558c6f3166"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193714.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193714_mask.png",
+      "group": "group-01096",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193714.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193714.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "92ca1811f9baeefd09d8b68cf9f5dd503f6d66e64ebfb6ecf81771f06b0bee0d"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_194609.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_194609_mask.png",
+      "group": "group-01151",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_194609.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_194609.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "aab09dcf5c735337c432becfabdba012853810a5e9557ce61f8310ea9f38b3eb"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_194349.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_194349_mask.png",
+      "group": "group-01136",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_194349.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_194349.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "846a4d83c9a56472b1e5182f1d29ae370998be7c25609af3308924e5bd393d04"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_192459.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_192459_mask.png",
+      "group": "group-00993",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192459.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192459.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "d6ad11698960bdb2b04cda5dc8ba074d9ddd40dfe57772ec57f632c92ece8c83"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_191456.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_191456_mask.png",
+      "group": "group-00911",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_191456.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_191456.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "1991f1b556ea0455dd874a8738b77b9dfa317b3ac5f8af30b89b37f75b667a66"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_192237.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_192237_mask.png",
+      "group": "group-00970",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192237.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192237.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "48c7da52bd0a316e5a21d5abee99a248ce85da5468436bb52420e7521fefbed8"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193920.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193920_mask.png",
+      "group": "group-01114",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193920.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193920.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "17e83020d22607c6657b85478cabc3cd620f8815839b51c02dea642ae8b63e3c"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_192546.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_192546_mask.png",
+      "group": "group-01003",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192546.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192546.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "5d806894e51909ca0914c1b6eb884f257e81c1062559fe66307724631348a527"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193451.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193451_mask.png",
+      "group": "group-01077",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193451.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193451.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "aa14155d6f580c5c6bc474762f873a73934fde901801ffbac21e6af74b6450aa"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_195903.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_195903_mask.png",
+      "group": "group-01243",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195903.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195903.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "9de6baf25b8a1b73945af33722785c23e697cd90e039badcbb4a47f8458b1e21"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_192332.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_192332_mask.png",
+      "group": "group-00978",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192332.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192332.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "2db72aa14ea64460183452522af2125ecb2c7b54d4f32152d95bc0089083474b"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_194631.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_194631_mask.png",
+      "group": "group-01156",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_194631.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_194631.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "152e6da1c88da2deecb575c0131e5f7ae043b71e4cc1811c5ea0e128963ca59c"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_192230.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_192230_mask.png",
+      "group": "group-00969",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192230.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192230.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "ad87556700f7d1e84c97eff4d3d46856e35cfe4056c541fd9d21e2fe57df549e"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_192736.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_192736_mask.png",
+      "group": "group-01028",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192736.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192736.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "834ac736edb2cb92bfc29d579dde14a581ebe355bb6f883bd29168e4ecb79624"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193510.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193510_mask.png",
+      "group": "group-01079",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193510.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193510.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "c60dc8647b3900a48f882c7e97453a2b3b9ed2791c3c01a44008bc9cf0c739bf"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_193211.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_193211_mask.png",
+      "group": "group-01057",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193211.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193211.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "2eea9de51a5591c3ee978629c7195eeeac00c4282c0909f38d5d06971bb12ff2"
+    },
+    {
+      "image": "train/healthy-leaf_IMG_20190726_192135.jpg",
+      "mask": "train/healthy-leaf_IMG_20190726_192135_mask.png",
+      "group": "group-00960",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192135.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192135.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "2358c07fd201ef2ed5d751c1931af6b382f4905927461b2d7c7b7a64e7d8f831"
+    },
+    {
+      "image": "train/rust_004733.jpg",
+      "mask": "train/rust_004733_mask.png",
+      "group": "group-01487",
+      "category": "Rust",
+      "source_image": "Rust/image/004733.JPG",
+      "source_mask": "Rust/label/004733.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "61be325bcd203d4a4034465d93681aa62d39d88093dd29fbe237ad873c30a316"
+    },
+    {
+      "image": "train/rust_IMG_20190727_163652.jpg",
+      "mask": "train/rust_IMG_20190727_163652_mask.png",
+      "group": "group-01592",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_163652.jpg",
+      "source_mask": "Rust/label/IMG_20190727_163652.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "47f7271e868f004e93e1447f6dcfe4f0b5ec07d2554dbc0fdc7f5f82de0076b2"
+    },
+    {
+      "image": "train/rust_004145.jpg",
+      "mask": "train/rust_004145_mask.png",
+      "group": "group-01304",
+      "category": "Rust",
+      "source_image": "Rust/image/004145.JPG",
+      "source_mask": "Rust/label/004145.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "bf99692a1710516376d4fdc370adb49de8f1a944bc45a91ff6f1d147982f4887"
+    },
+    {
+      "image": "train/rust_004835.jpg",
+      "mask": "train/rust_004835_mask.png",
+      "group": "group-01527",
+      "category": "Rust",
+      "source_image": "Rust/image/004835.JPG",
+      "source_mask": "Rust/label/004835.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "fed6131455b9658249b22a9528ba032674e5de913d7833851ef6d45b8c5a094b"
+    },
+    {
+      "image": "train/rust_IMG_20190727_163406.jpg",
+      "mask": "train/rust_IMG_20190727_163406_mask.png",
+      "group": "group-01579",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_163406.jpg",
+      "source_mask": "Rust/label/IMG_20190727_163406.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "498e672081f9af0a78ef8746557175faae38e0ddad94e8f35748072980318ff0"
+    },
+    {
+      "image": "train/rust_004321.jpg",
+      "mask": "train/rust_004321_mask.png",
+      "group": "group-01354",
+      "category": "Rust",
+      "source_image": "Rust/image/004321.JPG",
+      "source_mask": "Rust/label/004321.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "06f0cdfe4cd9b88b0956d54aceb597dd6b2df947014c3a04e980da8d3decd8bc"
+    },
+    {
+      "image": "train/rust_004719.jpg",
+      "mask": "train/rust_004719_mask.png",
+      "group": "group-01484",
+      "category": "Rust",
+      "source_image": "Rust/image/004719.JPG",
+      "source_mask": "Rust/label/004719.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "99062e7e3a7cbe937e87006215e510ba2e7d7f7b9b21ee9c0553098f03e67932"
+    },
+    {
+      "image": "train/rust_004451.jpg",
+      "mask": "train/rust_004451_mask.png",
+      "group": "group-01397",
+      "category": "Rust",
+      "source_image": "Rust/image/004451.JPG",
+      "source_mask": "Rust/label/004451.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "b33df2e63afd0089e8e365447f758661bbcf472265374c5c1b01f4be77af5fd8"
+    },
+    {
+      "image": "train/rust_004517.jpg",
+      "mask": "train/rust_004517_mask.png",
+      "group": "group-01419",
+      "category": "Rust",
+      "source_image": "Rust/image/004517.JPG",
+      "source_mask": "Rust/label/004517.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "ca1ed2ac07ba8792e31d72ae8b1a998a5790d1a9d64323087fbc6022bbb004bf"
+    },
+    {
+      "image": "train/rust_004485.jpg",
+      "mask": "train/rust_004485_mask.png",
+      "group": "group-01409",
+      "category": "Rust",
+      "source_image": "Rust/image/004485.JPG",
+      "source_mask": "Rust/label/004485.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "19a06ad2ea0a7523f113662c6cd8aa42a8da28772729be617759190122201ac6"
+    },
+    {
+      "image": "train/rust_004855.jpg",
+      "mask": "train/rust_004855_mask.png",
+      "group": "group-01535",
+      "category": "Rust",
+      "source_image": "Rust/image/004855.jpg",
+      "source_mask": "Rust/label/004855.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "da7599501baf8beb3c1f8815c6188ceba9415a3efa134d994214e3d6a75a86d1"
+    },
+    {
+      "image": "train/rust_004227.jpg",
+      "mask": "train/rust_004227_mask.png",
+      "group": "group-01328",
+      "category": "Rust",
+      "source_image": "Rust/image/004227.JPG",
+      "source_mask": "Rust/label/004227.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "865d9d8cf8918423121fdcbbbe7dab4e99d5887d185c4e0ad4628183440e8bdd"
+    },
+    {
+      "image": "train/rust_IMG_20190727_163850.jpg",
+      "mask": "train/rust_IMG_20190727_163850_mask.png",
+      "group": "group-01607",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_163850.jpg",
+      "source_mask": "Rust/label/IMG_20190727_163850.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "8606d00b9633d8ac4bfd00c01d81eb0b40427a9c609e4706b4f5e95939690c5a"
+    },
+    {
+      "image": "train/rust_004811.jpg",
+      "mask": "train/rust_004811_mask.png",
+      "group": "group-01517",
+      "category": "Rust",
+      "source_image": "Rust/image/004811.JPG",
+      "source_mask": "Rust/label/004811.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "961dee0a1928f33231636cca21269743287611e24d94d9896b19652df088a5bb"
+    },
+    {
+      "image": "train/rust_IMG_20190727_163805_1.jpg",
+      "mask": "train/rust_IMG_20190727_163805_1_mask.png",
+      "group": "group-01604",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_163805_1.jpg",
+      "source_mask": "Rust/label/IMG_20190727_163805_1.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "ac6fc6c93d9c1cf50d8999222c4473becd9a21aa8869af33b33a0c16da69ac68"
+    },
+    {
+      "image": "train/rust_IMG_20190727_164455.jpg",
+      "mask": "train/rust_IMG_20190727_164455_mask.png",
+      "group": "group-01640",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_164455.jpg",
+      "source_mask": "Rust/label/IMG_20190727_164455.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "d0827c500eb0d111968d0b0a196ddb1c5497eee25d0286ed9e863fca5cdf4a5e"
+    },
+    {
+      "image": "train/rust_004807.jpg",
+      "mask": "train/rust_004807_mask.png",
+      "group": "group-01515",
+      "category": "Rust",
+      "source_image": "Rust/image/004807.JPG",
+      "source_mask": "Rust/label/004807.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "e081dc399d90057ff21417e82317b79a9ab40f37f0e9e25b79881483c7668773"
+    },
+    {
+      "image": "train/rust_004535.jpg",
+      "mask": "train/rust_004535_mask.png",
+      "group": "group-01425",
+      "category": "Rust",
+      "source_image": "Rust/image/004535.JPG",
+      "source_mask": "Rust/label/004535.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "c384a53e4d0ee9f3de09d6daa10d06b1b570638aaee152281f4a81a10b81b497"
+    },
+    {
+      "image": "train/rust_004707.jpg",
+      "mask": "train/rust_004707_mask.png",
+      "group": "group-01481",
+      "category": "Rust",
+      "source_image": "Rust/image/004707.JPG",
+      "source_mask": "Rust/label/004707.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "2f7735f0a327c4b33b8d61f0bc86ff4e1667473e1d064268a340ab51bbd94108"
+    },
+    {
+      "image": "train/rust_IMG_20190727_162752.jpg",
+      "mask": "train/rust_IMG_20190727_162752_mask.png",
+      "group": "group-01552",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_162752.jpg",
+      "source_mask": "Rust/label/IMG_20190727_162752.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "064d6d827a020ad20a4bfce36ca5a8b4dee31cdf85445367c2397cc44938b759"
+    },
+    {
+      "image": "train/rust_004603.jpg",
+      "mask": "train/rust_004603_mask.png",
+      "group": "group-01445",
+      "category": "Rust",
+      "source_image": "Rust/image/004603.JPG",
+      "source_mask": "Rust/label/004603.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "8706814ff1b63811633b8cf31f382d345cd2d2839076a5d2b630d0e52c0919f6"
+    },
+    {
+      "image": "train/rust_004239.jpg",
+      "mask": "train/rust_004239_mask.png",
+      "group": "group-01332",
+      "category": "Rust",
+      "source_image": "Rust/image/004239.JPG",
+      "source_mask": "Rust/label/004239.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "42dde134a877649fee248a64c9546433009b80ad550e23776a82e9926befdc50"
+    },
+    {
+      "image": "train/rust_004785.jpg",
+      "mask": "train/rust_004785_mask.png",
+      "group": "group-01507",
+      "category": "Rust",
+      "source_image": "Rust/image/004785.JPG",
+      "source_mask": "Rust/label/004785.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "05709c1c0a51b2d1edc1b31f88d4af77fc11118cf759c6c877ad48a7b8592097"
+    },
+    {
+      "image": "train/rust_004309.jpg",
+      "mask": "train/rust_004309_mask.png",
+      "group": "group-01351",
+      "category": "Rust",
+      "source_image": "Rust/image/004309.JPG",
+      "source_mask": "Rust/label/004309.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "9521105ad1a91f0fa2785b815a55c153a793d6c80bb5b9ed96f9a592d0003eb9"
+    },
+    {
+      "image": "train/rust_004403.jpg",
+      "mask": "train/rust_004403_mask.png",
+      "group": "group-01380",
+      "category": "Rust",
+      "source_image": "Rust/image/004403.JPG",
+      "source_mask": "Rust/label/004403.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "aec9157788a2aab0d65d2f1708cb3560ee08fc3c385f3150f9e63e602fdf021f"
+    },
+    {
+      "image": "train/rust_004599.jpg",
+      "mask": "train/rust_004599_mask.png",
+      "group": "group-01443",
+      "category": "Rust",
+      "source_image": "Rust/image/004599.JPG",
+      "source_mask": "Rust/label/004599.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "f320bf8fe8e252511428df17b8036e538faba35d9dd15d76f80a82f2284b7632"
+    },
+    {
+      "image": "train/rust_IMG_20190727_163727.jpg",
+      "mask": "train/rust_IMG_20190727_163727_mask.png",
+      "group": "group-01599",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_163727.jpg",
+      "source_mask": "Rust/label/IMG_20190727_163727.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "cae48e10e509ae7f8441eb0ee881df4df8824e38e1c883632b2159c37bba7558"
+    },
+    {
+      "image": "train/rust_004819.jpg",
+      "mask": "train/rust_004819_mask.png",
+      "group": "group-01520",
+      "category": "Rust",
+      "source_image": "Rust/image/004819.JPG",
+      "source_mask": "Rust/label/004819.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "63c69f4d202f3473576b426fba3b832e920faaefa40fadeef25e3d89bf834724"
+    },
+    {
+      "image": "train/rust_004633.jpg",
+      "mask": "train/rust_004633_mask.png",
+      "group": "group-01454",
+      "category": "Rust",
+      "source_image": "Rust/image/004633.JPG",
+      "source_mask": "Rust/label/004633.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "d0c950337f3718f1ae886d128349e362765efd90c1e3842d49033e1dfdc6d937"
+    },
+    {
+      "image": "train/rust_004475.jpg",
+      "mask": "train/rust_004475_mask.png",
+      "group": "group-01404",
+      "category": "Rust",
+      "source_image": "Rust/image/004475.JPG",
+      "source_mask": "Rust/label/004475.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "ebe0dc66df426cdb5bf0032187624587ff183772a199ff4062de7c1a062f963f"
+    },
+    {
+      "image": "train/rust_IMG_20190727_163607.jpg",
+      "mask": "train/rust_IMG_20190727_163607_mask.png",
+      "group": "group-01586",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_163607.jpg",
+      "source_mask": "Rust/label/IMG_20190727_163607.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "fc31fa7fc5a51204dea01058f1575585dfc2507d8a6d17e3ecdd969eb28fec28"
+    },
+    {
+      "image": "train/rust_004705.jpg",
+      "mask": "train/rust_004705_mask.png",
+      "group": "group-01480",
+      "category": "Rust",
+      "source_image": "Rust/image/004705.JPG",
+      "source_mask": "Rust/label/004705.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "62f21c6fbc8f727006d3e16d7a1df43e9f643f03a3dcef87914ee0708f8a0c26"
+    }
+  ],
+  "validation": [
+    {
+      "image": "validation/alternaria-leaf-spot_000687.jpg",
+      "mask": "validation/alternaria-leaf-spot_000687_mask.png",
+      "group": "group-00121",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000687.jpg",
+      "source_mask": "Alternaria leaf spot/label/000687.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "69c9cca026f089170692fc55f6f269cecc6b66d99938fcba2d8284704d1dd80c"
+    },
+    {
+      "image": "validation/alternaria-leaf-spot_000663.jpg",
+      "mask": "validation/alternaria-leaf-spot_000663_mask.png",
+      "group": "group-00113",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000663.jpg",
+      "source_mask": "Alternaria leaf spot/label/000663.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "8fef9c41bab6ee8fa14eea528a3af44be8720bf5786cfd83f5df8287b26f1486"
+    },
+    {
+      "image": "validation/alternaria-leaf-spot_000755.jpg",
+      "mask": "validation/alternaria-leaf-spot_000755_mask.png",
+      "group": "group-00169",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000755.jpg",
+      "source_mask": "Alternaria leaf spot/label/000755.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "7554ea82c9b666504dae7511a82cf01066ef29ac4d7a0e0246f2ebdc3beb2456"
+    },
+    {
+      "image": "validation/alternaria-leaf-spot_004107.jpg",
+      "mask": "validation/alternaria-leaf-spot_004107_mask.png",
+      "group": "group-00273",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/004107.jpg",
+      "source_mask": "Alternaria leaf spot/label/004107.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "1e81dadd2a383e00a97d1ebe1caafe4b2f6b9de2e778d18e363fdc220492c3dd"
+    },
+    {
+      "image": "validation/alternaria-leaf-spot_000488.jpg",
+      "mask": "validation/alternaria-leaf-spot_000488_mask.png",
+      "group": "group-00056",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000488.jpg",
+      "source_mask": "Alternaria leaf spot/label/000488.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "ead3cebff4c0d751d9142f7f34a514920e01cae4a37fde4507f89977517e41bc"
+    },
+    {
+      "image": "validation/alternaria-leaf-spot_000782.jpg",
+      "mask": "validation/alternaria-leaf-spot_000782_mask.png",
+      "group": "group-00195",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000782.jpg",
+      "source_mask": "Alternaria leaf spot/label/000782.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "151173372c2ed5c07964c350ecade3acf82484554303c7f1efb234bdf5635c09"
+    },
+    {
+      "image": "validation/alternaria-leaf-spot_004095.jpg",
+      "mask": "validation/alternaria-leaf-spot_004095_mask.png",
+      "group": "group-00267",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/004095.jpg",
+      "source_mask": "Alternaria leaf spot/label/004095.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "ba6a1c3a79015b2f819cbff91189d31e0360205cd2df38353cc4d754f9007c35"
+    },
+    {
+      "image": "validation/alternaria-leaf-spot_000500.jpg",
+      "mask": "validation/alternaria-leaf-spot_000500_mask.png",
+      "group": "group-00064",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000500.jpg",
+      "source_mask": "Alternaria leaf spot/label/000500.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "56c0d8c8a3cc49bfa0f0f2ba5391356887ca440e9ac5a70856bc25bf283af16e"
+    },
+    {
+      "image": "validation/brown-spot_IMG_20190727_165025.jpg",
+      "mask": "validation/brown-spot_IMG_20190727_165025_mask.png",
+      "group": "group-00462",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165025.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165025.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "835a8f52867f965feb680939ab9ba440c17543202c870582bb23975934622ba8"
+    },
+    {
+      "image": "validation/brown-spot_IMG_20190727_165034.jpg",
+      "mask": "validation/brown-spot_IMG_20190727_165034_mask.png",
+      "group": "group-00463",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165034.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165034.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "b70db8221300b36eb6216a97c9db40d81a77ddd7a89340571a31dbc50377a354"
+    },
+    {
+      "image": "validation/brown-spot_001779.jpg",
+      "mask": "validation/brown-spot_001779_mask.png",
+      "group": "group-00419",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001779.jpg",
+      "source_mask": "Brown spot/label/001779.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "245552c332892b33d9ac73434d4ed18f815887868c063e11ad11426c9f457079"
+    },
+    {
+      "image": "validation/brown-spot_001835.jpg",
+      "mask": "validation/brown-spot_001835_mask.png",
+      "group": "group-00440",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001835.jpg",
+      "source_mask": "Brown spot/label/001835.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "ab8f9116106d69869aca58256d6fb41419098cee6b817a911ffb5077c7748bfb"
+    },
+    {
+      "image": "validation/brown-spot_001225.jpg",
+      "mask": "validation/brown-spot_001225_mask.png",
+      "group": "group-00325",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001225.JPG",
+      "source_mask": "Brown spot/label/001225.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "612fc8d73d38bdfa403bc4ffe359992a97a93656bc6cc964b929d575a35aa2f4"
+    },
+    {
+      "image": "validation/brown-spot_001519.jpg",
+      "mask": "validation/brown-spot_001519_mask.png",
+      "group": "group-00379",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001519.JPG",
+      "source_mask": "Brown spot/label/001519.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "ee0aa24a09803f2885372a669176ba8a217d596ee540cb8b0eaafd5b9e7826f9"
+    },
+    {
+      "image": "validation/brown-spot_001617.jpg",
+      "mask": "validation/brown-spot_001617_mask.png",
+      "group": "group-00395",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001617.jpg",
+      "source_mask": "Brown spot/label/001617.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "916124b6a984a2882a24ca4a0e76b074671706f5ddd81005d734a89de3415f4e"
+    },
+    {
+      "image": "validation/brown-spot_IMG_20190727_164757.jpg",
+      "mask": "validation/brown-spot_IMG_20190727_164757_mask.png",
+      "group": "group-00460",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_164757.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_164757.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "9d888aef347ee03eb31664ce51b6286e041f4c7796c47842e01b2ddf7b1b4922"
+    },
+    {
+      "image": "validation/gray-spot_003155.jpg",
+      "mask": "validation/gray-spot_003155_mask.png",
+      "group": "group-00574",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003155.jpg",
+      "source_mask": "Gray spot/label/003155.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "0e1a51b13034a092018ac3f2133630910a8a6eb809f6cef21cd881b7b9074eb9"
+    },
+    {
+      "image": "validation/gray-spot_IMG_20190727_150324.jpg",
+      "mask": "validation/gray-spot_IMG_20190727_150324_mask.png",
+      "group": "group-00858",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/IMG_20190727_150324.jpg",
+      "source_mask": "Gray spot/label/IMG_20190727_150324.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "5db01a274955abb62bc69dcd2fbb0d709d3636fb4e3e8f002beaeeff5655668b"
+    },
+    {
+      "image": "validation/gray-spot_20190726_195119.jpg",
+      "mask": "validation/gray-spot_20190726_195119_mask.png",
+      "group": "group-00853",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/20190726_195119.jpg",
+      "source_mask": "Gray spot/label/20190726_195119.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "841f024ae3cf914c11c5e55aab7db4db350fce2b39c8cbb35ece56f7b132121b"
+    },
+    {
+      "image": "validation/gray-spot_003009.jpg",
+      "mask": "validation/gray-spot_003009_mask.png",
+      "group": "group-00501",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003009.JPG",
+      "source_mask": "Gray spot/label/003009.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "737e2fca5da7fb23caa52b87fdda7da69b2366e190202bc4e582dfd416ff577d"
+    },
+    {
+      "image": "validation/gray-spot_003003.jpg",
+      "mask": "validation/gray-spot_003003_mask.png",
+      "group": "group-00499",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003003.JPG",
+      "source_mask": "Gray spot/label/003003.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "729704d93b75ba88fdbbb79e5d4bd621c11a47a3d76f2911ba7b9ae962ba00cf"
+    },
+    {
+      "image": "validation/gray-spot_003215.jpg",
+      "mask": "validation/gray-spot_003215_mask.png",
+      "group": "group-00603",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003215.JPG",
+      "source_mask": "Gray spot/label/003215.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "39c42fe540a0b1cb7710267da4c04958b118a0837b9ec414227701b15e4e2945"
+    },
+    {
+      "image": "validation/gray-spot_003185.jpg",
+      "mask": "validation/gray-spot_003185_mask.png",
+      "group": "group-00589",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003185.jpg",
+      "source_mask": "Gray spot/label/003185.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "1760ae1cc7d93c5ab6176bfea0a188f998a0dae08d52567d6a0de26ff71668a4"
+    },
+    {
+      "image": "validation/gray-spot_003497.jpg",
+      "mask": "validation/gray-spot_003497_mask.png",
+      "group": "group-00699",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003497.JPG",
+      "source_mask": "Gray spot/label/003497.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "fa93221472162ae07098f055f81f7d4ab68235da86758c8850e890e733a9defe"
+    },
+    {
+      "image": "validation/healthy-leaf_IMG_20190726_192151.jpg",
+      "mask": "validation/healthy-leaf_IMG_20190726_192151_mask.png",
+      "group": "group-00962",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192151.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192151.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "df523688aceeca3fa4c8e3d0c9f224518c3f03670a72532a014a2a5abb3e5d1f"
+    },
+    {
+      "image": "validation/healthy-leaf_IMG_20190726_194703.jpg",
+      "mask": "validation/healthy-leaf_IMG_20190726_194703_mask.png",
+      "group": "group-01162",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_194703.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_194703.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "30b0cef96adbc5aa698ae548d3a0ed6bd15b156307a6d98bec417c4e85a4acb8"
+    },
+    {
+      "image": "validation/healthy-leaf_IMG_20190726_191947.jpg",
+      "mask": "validation/healthy-leaf_IMG_20190726_191947_mask.png",
+      "group": "group-00941",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_191947.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_191947.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "9e21c017854caf461c42536beddadc29843cc8a26f8a6ff90b7919bf9ec01486"
+    },
+    {
+      "image": "validation/healthy-leaf_IMG_20190726_194338.jpg",
+      "mask": "validation/healthy-leaf_IMG_20190726_194338_mask.png",
+      "group": "group-01133",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_194338.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_194338.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "ad91a1454b92bfedf2e245415b972681db4d4f6849f1c9514fc32861642a95cf"
+    },
+    {
+      "image": "validation/healthy-leaf_IMG_20190726_195055.jpg",
+      "mask": "validation/healthy-leaf_IMG_20190726_195055_mask.png",
+      "group": "group-01185",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195055.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195055.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "e32bbbec85ad85b7a8be0ad04c7c7ff820b7b56823e9e6c7f290d6a930747e7e"
+    },
+    {
+      "image": "validation/healthy-leaf_IMG_20190726_192613.jpg",
+      "mask": "validation/healthy-leaf_IMG_20190726_192613_mask.png",
+      "group": "group-01009",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192613.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192613.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "2a4438706c6b3a020b24759316dd7e9a5d7c9478d1cb03f7814b2f4c5222e90c"
+    },
+    {
+      "image": "validation/healthy-leaf_IMG_20190726_191751.jpg",
+      "mask": "validation/healthy-leaf_IMG_20190726_191751_mask.png",
+      "group": "group-00926",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_191751.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_191751.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "397f053b2c6065257703727dab3d10af3121402f60fb7cc7095a07d938bb5c10"
+    },
+    {
+      "image": "validation/healthy-leaf_IMG_20190726_193832.jpg",
+      "mask": "validation/healthy-leaf_IMG_20190726_193832_mask.png",
+      "group": "group-01106",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193832.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193832.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "fecd63bbe6dc45d674c92daae5768563d79180564197b7235fd6620b19e7c1ab"
+    },
+    {
+      "image": "validation/rust_004723.jpg",
+      "mask": "validation/rust_004723_mask.png",
+      "group": "group-01486",
+      "category": "Rust",
+      "source_image": "Rust/image/004723.JPG",
+      "source_mask": "Rust/label/004723.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "6f919c5646cefdda29e0214c1d70624e787fde18047215a2a6e2d186185d12a6"
+    },
+    {
+      "image": "validation/rust_IMG_20190727_163805.jpg",
+      "mask": "validation/rust_IMG_20190727_163805_mask.png",
+      "group": "group-01603",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_163805.jpg",
+      "source_mask": "Rust/label/IMG_20190727_163805.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "12dac0352c21682698d937bc68b1b672a0816e80c68f14f176ca0902eb9b89bc"
+    },
+    {
+      "image": "validation/rust_004367.jpg",
+      "mask": "validation/rust_004367_mask.png",
+      "group": "group-01367",
+      "category": "Rust",
+      "source_image": "Rust/image/004367.JPG",
+      "source_mask": "Rust/label/004367.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "0ec5ac95a2527776bc007323f1cbfead2d0c94d2cc5c75b92d835660389298fe"
+    },
+    {
+      "image": "validation/rust_004869.jpg",
+      "mask": "validation/rust_004869_mask.png",
+      "group": "group-01542",
+      "category": "Rust",
+      "source_image": "Rust/image/004869.jpg",
+      "source_mask": "Rust/label/004869.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "786995357f56f7c0754f4c40c205ea66112096628e410d10cc600fe729dd1901"
+    },
+    {
+      "image": "validation/rust_IMG_20190727_164133.jpg",
+      "mask": "validation/rust_IMG_20190727_164133_mask.png",
+      "group": "group-01624",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_164133.jpg",
+      "source_mask": "Rust/label/IMG_20190727_164133.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "bd9d6d0ffe9409c8c9e7c733597bae7c61de6ae276f1256245bf285c762a5e23"
+    },
+    {
+      "image": "validation/rust_004341.jpg",
+      "mask": "validation/rust_004341_mask.png",
+      "group": "group-01359",
+      "category": "Rust",
+      "source_image": "Rust/image/004341.JPG",
+      "source_mask": "Rust/label/004341.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "1e55ed968a84ed468081945da85375135aa6c4b52f21c6ba87378ca3feaa79de"
+    },
+    {
+      "image": "validation/rust_IMG_20190727_163835.jpg",
+      "mask": "validation/rust_IMG_20190727_163835_mask.png",
+      "group": "group-01606",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_163835.jpg",
+      "source_mask": "Rust/label/IMG_20190727_163835.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "239679366b2971ada8d6898a62a8d83a158fca8b53d724a25c40a73ff21a73ae"
+    },
+    {
+      "image": "validation/rust_004809.jpg",
+      "mask": "validation/rust_004809_mask.png",
+      "group": "group-01516",
+      "category": "Rust",
+      "source_image": "Rust/image/004809.JPG",
+      "source_mask": "Rust/label/004809.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "4a514f4932057a4f877eea299eccf371da4ce75558604113bad46b87d09e6f9e"
+    }
+  ],
+  "test": [
+    {
+      "image": "test/alternaria-leaf-spot_000711.jpg",
+      "mask": "test/alternaria-leaf-spot_000711_mask.png",
+      "group": "group-00134",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000711.jpg",
+      "source_mask": "Alternaria leaf spot/label/000711.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "dd0d3ea16c37eaf7ed9a1f5801fd06f23f62c91aaa2c948e16cf4b389ca142e6"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000536.jpg",
+      "mask": "test/alternaria-leaf-spot_000536_mask.png",
+      "group": "group-00097",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000536.jpg",
+      "source_mask": "Alternaria leaf spot/label/000536.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "ff2a9e9f23649756bc3a560cf562583cc3c72f97fa93ee8551138c086ead26c8"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000481.jpg",
+      "mask": "test/alternaria-leaf-spot_000481_mask.png",
+      "group": "group-00054",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000481.jpg",
+      "source_mask": "Alternaria leaf spot/label/000481.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "ca68f68c9a5626d88ffa4a38928dd01af73cebb08731bf8f2e55dd1f1041b400"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000801.jpg",
+      "mask": "test/alternaria-leaf-spot_000801_mask.png",
+      "group": "group-00209",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000801.jpg",
+      "source_mask": "Alternaria leaf spot/label/000801.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "22fc3883965b478064ca3528268f7d0da89d2e3692a9d646d18d4fc110ecb428"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000706.jpg",
+      "mask": "test/alternaria-leaf-spot_000706_mask.png",
+      "group": "group-00130",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000706.jpg",
+      "source_mask": "Alternaria leaf spot/label/000706.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "44700f6b32419937c9e4b304ff8ae2e7075f33337a08af971d3a2eee3f4baf30"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000560.jpg",
+      "mask": "test/alternaria-leaf-spot_000560_mask.png",
+      "group": "group-00110",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000560.jpg",
+      "source_mask": "Alternaria leaf spot/label/000560.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "99cbf5dac9d5794c74609facd25265986f9473d44a0d74a137a17d06c27f28be"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000439.jpg",
+      "mask": "test/alternaria-leaf-spot_000439_mask.png",
+      "group": "group-00023",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000439.jpg",
+      "source_mask": "Alternaria leaf spot/label/000439.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "1d05ff02dc8439f0a3926fd0abee59e43b4ce5adf4f3a3a4882f80e23dd98341"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_004035.jpg",
+      "mask": "test/alternaria-leaf-spot_004035_mask.png",
+      "group": "group-00239",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/004035.jpg",
+      "source_mask": "Alternaria leaf spot/label/004035.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "b1f45af56f6466fa5692ce2e81c1c71bdc2bba8f5d40f17c4b43bac76b98f8b7"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000423.jpg",
+      "mask": "test/alternaria-leaf-spot_000423_mask.png",
+      "group": "group-00009",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000423.jpg",
+      "source_mask": "Alternaria leaf spot/label/000423.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "310a6d72a35fe446c6b1615ed58a75cf6ce7d73ced15a0a9fb426d76614d3a49"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000665.jpg",
+      "mask": "test/alternaria-leaf-spot_000665_mask.png",
+      "group": "group-00115",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000665.jpg",
+      "source_mask": "Alternaria leaf spot/label/000665.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "62b2c17b28423ca57d5b86fed7b287c37168b59b02a56d939e96355df45dc442"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000456.jpg",
+      "mask": "test/alternaria-leaf-spot_000456_mask.png",
+      "group": "group-00037",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000456.jpg",
+      "source_mask": "Alternaria leaf spot/label/000456.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "be1f6f63fba7899ca3d477fa389f6db777c98b6dfeb29006b9fba7901842776d"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000498.jpg",
+      "mask": "test/alternaria-leaf-spot_000498_mask.png",
+      "group": "group-00062",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000498.jpg",
+      "source_mask": "Alternaria leaf spot/label/000498.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "87bdfd765f08379c4a3bc06808e7072ea13ba15993004f1cf6f439d0e27ffc11"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000721.jpg",
+      "mask": "test/alternaria-leaf-spot_000721_mask.png",
+      "group": "group-00141",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000721.jpg",
+      "source_mask": "Alternaria leaf spot/label/000721.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "2c7ca873eccd57db22b5f0e15ea6965b445e56c59dbc01be89135015fa8fd228"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000797.jpg",
+      "mask": "test/alternaria-leaf-spot_000797_mask.png",
+      "group": "group-00205",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000797.jpg",
+      "source_mask": "Alternaria leaf spot/label/000797.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "de9c46c71668188c9a6611d436ede230ba9ce42488a8975c40c8eb97198bb4db"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000503.jpg",
+      "mask": "test/alternaria-leaf-spot_000503_mask.png",
+      "group": "group-00067",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000503.jpg",
+      "source_mask": "Alternaria leaf spot/label/000503.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "6fabd378f8df608912696765973fefc57c739b497424bb7521770c0878638099"
+    },
+    {
+      "image": "test/alternaria-leaf-spot_000759.jpg",
+      "mask": "test/alternaria-leaf-spot_000759_mask.png",
+      "group": "group-00172",
+      "category": "Alternaria leaf spot",
+      "source_image": "Alternaria leaf spot/image/000759.jpg",
+      "source_mask": "Alternaria leaf spot/label/000759.png",
+      "source_label_indices": [
+        0,
+        1,
+        3
+      ],
+      "decoded_image_sha256": "361a41e08a6bc855a0e7ed55561e8728e2af5355442b435b3eaf27398800de45"
+    },
+    {
+      "image": "test/brown-spot_001423.jpg",
+      "mask": "test/brown-spot_001423_mask.png",
+      "group": "group-00352",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001423.JPG",
+      "source_mask": "Brown spot/label/001423.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "fa1356d1e8724af78b5f35c94ff42ddba19e2ad76be3e535137fb52e4cd049ad"
+    },
+    {
+      "image": "test/brown-spot_001485.jpg",
+      "mask": "test/brown-spot_001485_mask.png",
+      "group": "group-00367",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001485.JPG",
+      "source_mask": "Brown spot/label/001485.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "a781f657872f365ae778c87bba2102861b905c83cfbf39a36d27e26e4ae028f6"
+    },
+    {
+      "image": "test/brown-spot_001629.jpg",
+      "mask": "test/brown-spot_001629_mask.png",
+      "group": "group-00396",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001629.jpg",
+      "source_mask": "Brown spot/label/001629.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "60d7518f09fd9e06037ce85a7259a760fa35b17d1747012c3f77e056711f272e"
+    },
+    {
+      "image": "test/brown-spot_IMG_20190726_192719.jpg",
+      "mask": "test/brown-spot_IMG_20190726_192719_mask.png",
+      "group": "group-00454",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190726_192719.jpg",
+      "source_mask": "Brown spot/label/IMG_20190726_192719.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "aa9ad0282861a6e847e760dc86d3b6bd258e578b74845849cfb7a362151f1099"
+    },
+    {
+      "image": "test/brown-spot_001481.jpg",
+      "mask": "test/brown-spot_001481_mask.png",
+      "group": "group-00366",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001481.JPG",
+      "source_mask": "Brown spot/label/001481.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "1723d590d3ae495d1fcdd10981c5175a94d20064449420ca208024396d356590"
+    },
+    {
+      "image": "test/brown-spot_\u8910\u6591\u75c5IMG_20190726_191634.jpg",
+      "mask": "test/brown-spot_\u8910\u6591\u75c5IMG_20190726_191634_mask.png",
+      "group": "group-00489",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/\u8910\u6591\u75c5IMG_20190726_191634.jpg",
+      "source_mask": "Brown spot/label/\u8910\u6591\u75c5IMG_20190726_191634.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "5ed4839084e39d09cf6014d469043f5b589b386835f7aa7e2f139f696b482059"
+    },
+    {
+      "image": "test/brown-spot_001263.jpg",
+      "mask": "test/brown-spot_001263_mask.png",
+      "group": "group-00337",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001263.JPG",
+      "source_mask": "Brown spot/label/001263.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "8a3705e82180ab3941b7b8ef6c65a46657cb8467be8c02cfdfd9c9a07d492960"
+    },
+    {
+      "image": "test/brown-spot_IMG_20190727_165313.jpg",
+      "mask": "test/brown-spot_IMG_20190727_165313_mask.png",
+      "group": "group-00471",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165313.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165313.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "e85e107281575808b5ef6e7f278529726476bf98cdefd65e17a2599ceee78a7e"
+    },
+    {
+      "image": "test/brown-spot_001375.jpg",
+      "mask": "test/brown-spot_001375_mask.png",
+      "group": "group-00350",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001375.JPG",
+      "source_mask": "Brown spot/label/001375.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "a16f1ec194b4c360244406b960ec99a484a06674220dcd831ea8bb7e37ca1b85"
+    },
+    {
+      "image": "test/brown-spot_001467.jpg",
+      "mask": "test/brown-spot_001467_mask.png",
+      "group": "group-00361",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001467.JPG",
+      "source_mask": "Brown spot/label/001467.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "99b52eddd712de67813acdc551e84ef7b524cdde88f36361bd9b56c9c206c323"
+    },
+    {
+      "image": "test/brown-spot_001669.jpg",
+      "mask": "test/brown-spot_001669_mask.png",
+      "group": "group-00402",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001669.jpg",
+      "source_mask": "Brown spot/label/001669.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "35acd7850ab98bf5cd113327cc131cf49494bc6dd11be69b5011c2118f4c4f00"
+    },
+    {
+      "image": "test/brown-spot_001711.jpg",
+      "mask": "test/brown-spot_001711_mask.png",
+      "group": "group-00409",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001711.jpg",
+      "source_mask": "Brown spot/label/001711.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "b4551b54a2e80902d466574b7b296415f1e08ff3525a1acc6c05cfed9ad89049"
+    },
+    {
+      "image": "test/brown-spot_IMG_20190727_165858.jpg",
+      "mask": "test/brown-spot_IMG_20190727_165858_mask.png",
+      "group": "group-00480",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165858.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165858.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "5431f904f37947d3cbac47d3e4ca52945d2f40ed602407d5ed036cb7d19bd73d"
+    },
+    {
+      "image": "test/brown-spot_IMG_20190727_165227.jpg",
+      "mask": "test/brown-spot_IMG_20190727_165227_mask.png",
+      "group": "group-00468",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165227.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165227.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "32fb836896f5984b7808d56c1458deab0519214541d7c641bd7418591d73324e"
+    },
+    {
+      "image": "test/brown-spot_001219.jpg",
+      "mask": "test/brown-spot_001219_mask.png",
+      "group": "group-00322",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/001219.JPG",
+      "source_mask": "Brown spot/label/001219.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "751442cec1f7f7f0f1dbcd477631ceea2a3b1523611e9e98bdbdc96572bb7dc0"
+    },
+    {
+      "image": "test/brown-spot_IMG_20190727_165259.jpg",
+      "mask": "test/brown-spot_IMG_20190727_165259_mask.png",
+      "group": "group-00470",
+      "category": "Brown spot",
+      "source_image": "Brown spot/image/IMG_20190727_165259.jpg",
+      "source_mask": "Brown spot/label/IMG_20190727_165259.png",
+      "source_label_indices": [
+        0,
+        1,
+        5
+      ],
+      "decoded_image_sha256": "e5ea8a991e65ce7d272314b98b0a1cc1a7a1924269389ea51c9b37a21b2750c3"
+    },
+    {
+      "image": "test/gray-spot_003647.jpg",
+      "mask": "test/gray-spot_003647_mask.png",
+      "group": "group-00771",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003647.jpg",
+      "source_mask": "Gray spot/label/003647.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "4da271a368f65431443532b768b4ab97e93798982b78782922728b02287a05ab"
+    },
+    {
+      "image": "test/gray-spot_003527.jpg",
+      "mask": "test/gray-spot_003527_mask.png",
+      "group": "group-00712",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003527.jpg",
+      "source_mask": "Gray spot/label/003527.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "7079ed2eaef37fb3680031f043796015b81833d6f091a94dc090e0e3869440f2"
+    },
+    {
+      "image": "test/gray-spot_003137.jpg",
+      "mask": "test/gray-spot_003137_mask.png",
+      "group": "group-00565",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003137.JPG",
+      "source_mask": "Gray spot/label/003137.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "1270a66677ec0b217ac96ca26a4c1eefd6cd5f905a02c247394f6e22e7a359b0"
+    },
+    {
+      "image": "test/gray-spot_003669.jpg",
+      "mask": "test/gray-spot_003669_mask.png",
+      "group": "group-00782",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003669.jpg",
+      "source_mask": "Gray spot/label/003669.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "9edc15ef6023e49dc86a9389c31c04517f63597c7a668d734d3eab4506aad168"
+    },
+    {
+      "image": "test/gray-spot_003315.jpg",
+      "mask": "test/gray-spot_003315_mask.png",
+      "group": "group-00653",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003315.JPG",
+      "source_mask": "Gray spot/label/003315.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "a85778f9eeaeb8ec0abbc5038a33cce9f4019f9d33cc551b338111092d3789f9"
+    },
+    {
+      "image": "test/gray-spot_20190726_193548.jpg",
+      "mask": "test/gray-spot_20190726_193548_mask.png",
+      "group": "group-00835",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/20190726_193548.jpg",
+      "source_mask": "Gray spot/label/20190726_193548.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "d02c097140a71392417f2c10fd225ffbc8cc2724b15b102a1aa1f83064aff1aa"
+    },
+    {
+      "image": "test/gray-spot_003631.jpg",
+      "mask": "test/gray-spot_003631_mask.png",
+      "group": "group-00763",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003631.jpg",
+      "source_mask": "Gray spot/label/003631.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "7edcfe1549b5f63f219b2e2ef2064a906d5b1664db76466d2c5e8f14269e40a0"
+    },
+    {
+      "image": "test/gray-spot_003589.jpg",
+      "mask": "test/gray-spot_003589_mask.png",
+      "group": "group-00743",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003589.jpg",
+      "source_mask": "Gray spot/label/003589.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "1f8b7665dbe63ff913bcf0e9e636a2ab274dad2908e398c44c6d3dac6299024a"
+    },
+    {
+      "image": "test/gray-spot_003139.jpg",
+      "mask": "test/gray-spot_003139_mask.png",
+      "group": "group-00566",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003139.JPG",
+      "source_mask": "Gray spot/label/003139.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "268c7aef86c97b992e823775a0eaeeff3a6fbc3f74aef1640153e1aca0918bfe"
+    },
+    {
+      "image": "test/gray-spot_20190726_191742.jpg",
+      "mask": "test/gray-spot_20190726_191742_mask.png",
+      "group": "group-00821",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/20190726_191742.jpg",
+      "source_mask": "Gray spot/label/20190726_191742.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "fbacbc0cc2807a63cd212ecd3e3ac11b26e34f49d2481fa1bfaecdc3afcc2d5a"
+    },
+    {
+      "image": "test/gray-spot_003607.jpg",
+      "mask": "test/gray-spot_003607_mask.png",
+      "group": "group-00751",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003607.jpg",
+      "source_mask": "Gray spot/label/003607.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "0776b117b43028731b50c94d8d75d8ef0dd17d72a58c6fd7954630491cec871b"
+    },
+    {
+      "image": "test/gray-spot_003281.jpg",
+      "mask": "test/gray-spot_003281_mask.png",
+      "group": "group-00636",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003281.JPG",
+      "source_mask": "Gray spot/label/003281.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "dafa0b2d75ea72532989a7629707fd70bfd8f00b9aae13b4fb06a02289447ecc"
+    },
+    {
+      "image": "test/gray-spot_003665.jpg",
+      "mask": "test/gray-spot_003665_mask.png",
+      "group": "group-00780",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003665.jpg",
+      "source_mask": "Gray spot/label/003665.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "f6d7d69fbb76ab2bd1399493b25944e8fcdbd49f0b1f37ccf3ac1933f31b880e"
+    },
+    {
+      "image": "test/gray-spot_20190726_195216.jpg",
+      "mask": "test/gray-spot_20190726_195216_mask.png",
+      "group": "group-00855",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/20190726_195216.jpg",
+      "source_mask": "Gray spot/label/20190726_195216.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "d906aa21ab8712d38afdef44246c8a5e5d00015e88835dc8f571c91304dbdc8c"
+    },
+    {
+      "image": "test/gray-spot_003377.jpg",
+      "mask": "test/gray-spot_003377_mask.png",
+      "group": "group-00683",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/003377.JPG",
+      "source_mask": "Gray spot/label/003377.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "da03e3d8b7af0ec1fd2afd066128cbc160a6543bd62804c447f8fbfdfba1ff25"
+    },
+    {
+      "image": "test/gray-spot_IMG_20190727_150553.jpg",
+      "mask": "test/gray-spot_IMG_20190727_150553_mask.png",
+      "group": "group-00870",
+      "category": "Gray spot",
+      "source_image": "Gray spot/image/IMG_20190727_150553.jpg",
+      "source_mask": "Gray spot/label/IMG_20190727_150553.png",
+      "source_label_indices": [
+        0,
+        1,
+        4
+      ],
+      "decoded_image_sha256": "4ac1f0b02c2fc4a709971ca02a1c4a55ca011a9b7ed6ae1f1d3f460eaf4492bb"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_192455.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_192455_mask.png",
+      "group": "group-00992",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_192455.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_192455.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "b48994acfb4f02637892edba657caecdab4f25f27b4a467da3f18d7deeab001b"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_193240.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_193240_mask.png",
+      "group": "group-01062",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193240.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193240.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "47f79d248081329344d2fd7969f5e0c7fe6f2b60a0fd0bfeca026779f91e29b2"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_191726.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_191726_mask.png",
+      "group": "group-00923",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_191726.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_191726.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "2cd810272656d876094cf30d7d4da1baff9589b198fa772aa89c0631cd283430"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_195744.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_195744_mask.png",
+      "group": "group-01234",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195744.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195744.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "44b8cbfd974a6a213a1e02b5f5fac167006197878282587c9f54d1e382ef6751"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_195734.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_195734_mask.png",
+      "group": "group-01232",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195734.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195734.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "3b2a57ba1a0d06a69f565641a1a08373f25e6a9dba1ed3a58acf01dffb1a8f30"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_194543.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_194543_mask.png",
+      "group": "group-01147",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_194543.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_194543.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "e65c91baaf118c02bff6552303276423e861084e7eadeec831601a1ca3a1e762"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_194924.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_194924_mask.png",
+      "group": "group-01175",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_194924.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_194924.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "a1e23c9d332a031be4cd4eb565c394c6be6245fb623fe077aeee4b9bc5c22523"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_195041.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_195041_mask.png",
+      "group": "group-01182",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195041.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195041.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "c23101e45a282323a9b9a2b283eac83fb02b7d6f55736d442e9eae4c332ef009"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_193138.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_193138_mask.png",
+      "group": "group-01055",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193138.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193138.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "001ba7e70aa4ab33ddee4049d8cc9addcaa272603b9497892e2b4dc36c1882a2"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_193102.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_193102_mask.png",
+      "group": "group-01049",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193102.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193102.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "463699de58aba4e1b5a625f0733135720c17fa173d0e9c38e976238cd383bba5"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_200519.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_200519_mask.png",
+      "group": "group-01292",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_200519.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_200519.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "33e33cdcfc0dbd5226a31fcfc385148a56fc470bcb0d932742bd226f6aff0695"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_193127.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_193127_mask.png",
+      "group": "group-01054",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_193127.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_193127.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "4b77b74cdb2a5eebd75952bdf0cbd349f8310a2c2dd58d147fd89c47eb425c83"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_195432.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_195432_mask.png",
+      "group": "group-01210",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_195432.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_195432.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "0bdaf92f5edcfe76ff12ce5f0cbfcd38c0a86d3bc3aaf77b5c9bed0ff309df0c"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_200522.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_200522_mask.png",
+      "group": "group-01293",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_200522.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_200522.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "e06105f043336f206093fcf12fa1d8a2d87a378290635439ca5cfd0b4dd9be79"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_191742.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_191742_mask.png",
+      "group": "group-00924",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_191742.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_191742.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "74750cca6a699cec096c074bd6c21be042de01e5773a21fdf89e857999da0a93"
+    },
+    {
+      "image": "test/healthy-leaf_IMG_20190726_200031.jpg",
+      "mask": "test/healthy-leaf_IMG_20190726_200031_mask.png",
+      "group": "group-01254",
+      "category": "Healthy leaf",
+      "source_image": "Healthy leaf/image/IMG_20190726_200031.jpg",
+      "source_mask": "Healthy leaf/label/IMG_20190726_200031.png",
+      "source_label_indices": [
+        0,
+        1
+      ],
+      "decoded_image_sha256": "db783415a3d93fde3a9223419e42f952b518c087bbc51e9727c56c5daf896b1a"
+    },
+    {
+      "image": "test/rust_004409.jpg",
+      "mask": "test/rust_004409_mask.png",
+      "group": "group-01382",
+      "category": "Rust",
+      "source_image": "Rust/image/004409.JPG",
+      "source_mask": "Rust/label/004409.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "1740c583a8c9d8fe51072fd1f35d4445150b341ce5cdc5c75b1dcdf4bc278be1"
+    },
+    {
+      "image": "test/rust_004799.jpg",
+      "mask": "test/rust_004799_mask.png",
+      "group": "group-01512",
+      "category": "Rust",
+      "source_image": "Rust/image/004799.JPG",
+      "source_mask": "Rust/label/004799.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "916383c1f9c173c55085c682aedbb09ab6c3fddca69dbf4e1150d1554606abaf"
+    },
+    {
+      "image": "test/rust_004745.jpg",
+      "mask": "test/rust_004745_mask.png",
+      "group": "group-01491",
+      "category": "Rust",
+      "source_image": "Rust/image/004745.JPG",
+      "source_mask": "Rust/label/004745.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "c23eb67650a92859b5bf2fcf43dc648e0dc88ac1ea8bdbf0e80fb2cb03f2b2f3"
+    },
+    {
+      "image": "test/rust_004253.jpg",
+      "mask": "test/rust_004253_mask.png",
+      "group": "group-01334",
+      "category": "Rust",
+      "source_image": "Rust/image/004253.JPG",
+      "source_mask": "Rust/label/004253.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "3b454c7a820c4e2f6604c9347ac96fa3b66ccc654bbeac320490a2a8c462ab88"
+    },
+    {
+      "image": "test/rust_IMG_20190727_163234.jpg",
+      "mask": "test/rust_IMG_20190727_163234_mask.png",
+      "group": "group-01573",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_163234.jpg",
+      "source_mask": "Rust/label/IMG_20190727_163234.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "2c540745677c5ade5206d4d0cd96631310a92bf646cee4e3b5c3a3cae1fe3f65"
+    },
+    {
+      "image": "test/rust_004621.jpg",
+      "mask": "test/rust_004621_mask.png",
+      "group": "group-01449",
+      "category": "Rust",
+      "source_image": "Rust/image/004621.JPG",
+      "source_mask": "Rust/label/004621.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "637bf9088c421f0a279df741aa0884de0faebd2b008748e1873f5f68b4253640"
+    },
+    {
+      "image": "test/rust_004187.jpg",
+      "mask": "test/rust_004187_mask.png",
+      "group": "group-01318",
+      "category": "Rust",
+      "source_image": "Rust/image/004187.JPG",
+      "source_mask": "Rust/label/004187.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "ff16a17cabdb4b6c1ce195106d479d68e849c49c3f961041d5067e8af95ecece"
+    },
+    {
+      "image": "test/rust_004369.jpg",
+      "mask": "test/rust_004369_mask.png",
+      "group": "group-01368",
+      "category": "Rust",
+      "source_image": "Rust/image/004369.JPG",
+      "source_mask": "Rust/label/004369.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "ff59490a0ee2912e5b80fb5f07299a75bd303978dcdee2d608edbb65cda5296f"
+    },
+    {
+      "image": "test/rust_004401.jpg",
+      "mask": "test/rust_004401_mask.png",
+      "group": "group-01379",
+      "category": "Rust",
+      "source_image": "Rust/image/004401.JPG",
+      "source_mask": "Rust/label/004401.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "58b23a6b09d70360f9120f9ac89a97ed2875344a4a1275bc365a7a21bd18b0c4"
+    },
+    {
+      "image": "test/rust_004371.jpg",
+      "mask": "test/rust_004371_mask.png",
+      "group": "group-01369",
+      "category": "Rust",
+      "source_image": "Rust/image/004371.JPG",
+      "source_mask": "Rust/label/004371.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "7768fa2a5a96ebc21c130c8b804eee3a474a0b091c28feff59988a07400814a2"
+    },
+    {
+      "image": "test/rust_004289.jpg",
+      "mask": "test/rust_004289_mask.png",
+      "group": "group-01344",
+      "category": "Rust",
+      "source_image": "Rust/image/004289.JPG",
+      "source_mask": "Rust/label/004289.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "104ad56c859f38db9eadb9632c19c96b5436b7d5241f159a683de0a406ed0b0a"
+    },
+    {
+      "image": "test/rust_004617.jpg",
+      "mask": "test/rust_004617_mask.png",
+      "group": "group-01448",
+      "category": "Rust",
+      "source_image": "Rust/image/004617.JPG",
+      "source_mask": "Rust/label/004617.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "c31373362310555176fb546fd82825218e309f0c59711e7a48d11c383c559d69"
+    },
+    {
+      "image": "test/rust_004595.jpg",
+      "mask": "test/rust_004595_mask.png",
+      "group": "group-01442",
+      "category": "Rust",
+      "source_image": "Rust/image/004595.JPG",
+      "source_mask": "Rust/label/004595.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "f1f4d8782e5929ab63054831a1dbc90901a2d51c91254e3429648db032c1c3c3"
+    },
+    {
+      "image": "test/rust_004241.jpg",
+      "mask": "test/rust_004241_mask.png",
+      "group": "group-01333",
+      "category": "Rust",
+      "source_image": "Rust/image/004241.JPG",
+      "source_mask": "Rust/label/004241.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "d5eb812b56004bac14a19ef0c132f4aaec01bca86a14db79134c0409e181677f"
+    },
+    {
+      "image": "test/rust_004567.jpg",
+      "mask": "test/rust_004567_mask.png",
+      "group": "group-01435",
+      "category": "Rust",
+      "source_image": "Rust/image/004567.JPG",
+      "source_mask": "Rust/label/004567.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "066aa6e2e35bc3e45eaefc7f2664b5a88596eb1b449e5784fdcdb12d946bb6dc"
+    },
+    {
+      "image": "test/rust_IMG_20190727_164104.jpg",
+      "mask": "test/rust_IMG_20190727_164104_mask.png",
+      "group": "group-01621",
+      "category": "Rust",
+      "source_image": "Rust/image/IMG_20190727_164104.jpg",
+      "source_mask": "Rust/label/IMG_20190727_164104.png",
+      "source_label_indices": [
+        0,
+        1,
+        2
+      ],
+      "decoded_image_sha256": "9f635734ee872fb8adf60d24a6df5ef5f2154181f002b70dd6055039016ccd8b"
+    }
+  ]
+}
