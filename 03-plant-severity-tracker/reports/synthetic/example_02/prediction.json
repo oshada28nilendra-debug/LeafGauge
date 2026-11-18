@@ -1,0 +1,12 @@
+{
+  "leaf_pixels": 16744,
+  "lesion_pixels": 1147,
+  "affected_area_percent": 6.850215002388915,
+  "crop": "apple",
+  "quality_warnings": [],
+  "manual_leaf_mask": false,
+  "low_margin_pixel_fraction": 0.0,
+  "leaf_threshold": 0.65,
+  "lesion_threshold": 0.7,
+  "quantity": "estimated visibly affected area / estimated visible leaf area; not pathological grade"
+}

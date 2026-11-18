@@ -1,0 +1,13 @@
+condition,image,category,leaf_dice,lesion_dice,lesion_iou,truth_severity_percent,predicted_severity_percent,severity_absolute_error_pp,ground_truth_lesion_present,quality_warnings
+original,000.png,procedural_apple,0.9999362244897959,1.0,1.0,11.71630843803814,11.714814106243225,0.0014943317949160928,True,
+original,001.png,procedural_apple,1.0,1.0,1.0,9.938175304789969,9.938175304789969,0.0,True,
+original,002.png,procedural_apple,1.0,1.0,1.0,6.850215002388915,6.850215002388915,0.0,True,
+original,003.png,procedural_apple,1.0,1.0,1.0,0.7169179229480737,0.7169179229480737,0.0,True,
+original,004.png,procedural_apple,1.0,1.0,1.0,11.3527569292595,11.3527569292595,0.0,True,
+original,005.png,procedural_apple,1.0,1.0,1.0,11.915926518453135,11.915926518453135,0.0,True,
+original,006.png,procedural_apple,1.0,1.0,1.0,12.00778747723419,12.00778747723419,0.0,True,
+original,007.png,procedural_apple,1.0,1.0,1.0,0.44751830756712774,0.44751830756712774,0.0,True,
+original,008.png,procedural_apple,1.0,1.0,1.0,2.959200574173246,2.959200574173246,0.0,True,
+original,009.png,procedural_apple,1.0,1.0,1.0,14.064530711420014,14.064530711420014,0.0,True,
+original,010.png,procedural_apple,1.0,1.0,1.0,8.746486790331646,8.746486790331646,0.0,True,
+original,011.png,procedural_apple,1.0,1.0,1.0,11.3992795788307,11.3992795788307,0.0,True,

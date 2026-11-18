@@ -1,0 +1,19 @@
+test_detects_synthetic_leaf_and_lesions (test_leafseverity.LeafSeverityTests.test_detects_synthetic_leaf_and_lesions) ... ok
+test_empty_leaf_is_undefined_not_healthy (test_leafseverity.LeafSeverityTests.test_empty_leaf_is_undefined_not_healthy) ... ok
+test_lesions_outside_leaf_rejected (test_leafseverity.LeafSeverityTests.test_lesions_outside_leaf_rejected) ... ok
+test_manifest_duplicate_or_group_leakage_rejected (test_leafseverity.LeafSeverityTests.test_manifest_duplicate_or_group_leakage_rejected) ... ok
+test_manual_leaf_mask_controls_denominator (test_leafseverity.LeafSeverityTests.test_manual_leaf_mask_controls_denominator) ... ok
+test_native_resolution_and_aspect_ratio_restored (test_leafseverity.LeafSeverityTests.test_native_resolution_and_aspect_ratio_restored) ... ok
+test_save_load_preserves_masks (test_leafseverity.LeafSeverityTests.test_save_load_preserves_masks) ... ok
+test_severity_denominator_includes_lesions (test_leafseverity.LeafSeverityTests.test_severity_denominator_includes_lesions) ... ok
+test_tracker_computes_percentage_points_not_percent_growth (test_leafseverity.LeafSeverityTests.test_tracker_computes_percentage_points_not_percent_growth) ... ok
+test_tracker_does_not_compare_changed_model_or_view (test_leafseverity.LeafSeverityTests.test_tracker_does_not_compare_changed_model_or_view) ... ok
+test_tracker_refuses_duplicate_observation (test_leafseverity.LeafSeverityTests.test_tracker_refuses_duplicate_observation) ... ok
+test_tracker_withholds_comparison_for_quality_warning (test_leafseverity.LeafSeverityTests.test_tracker_withholds_comparison_for_quality_warning) ... ok
+test_validation_training_overlap_rejected (test_leafseverity.LeafSeverityTests.test_validation_training_overlap_rejected) ... ok
+test_wrong_crop_manifest_rejected (test_leafseverity.LeafSeverityTests.test_wrong_crop_manifest_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 5.377s
+
+OK

@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "crop": "apple",
+  "observations": [
+    {
+      "leaf_id": "synthetic-apple-1",
+      "view_id": "front-flat",
+      "observed_at": "2026-11-16",
+      "model_id": "4e15f7bac667ec14b545a1a909186dbaf39c51e748c294d4afb15e920b8f2bfd",
+      "affected_area_percent": 0.0,
+      "manual_leaf_mask": false,
+      "quality_warnings": []
+    },
+    {
+      "leaf_id": "synthetic-apple-1",
+      "view_id": "front-flat",
+      "observed_at": "2026-11-17",
+      "model_id": "4e15f7bac667ec14b545a1a909186dbaf39c51e748c294d4afb15e920b8f2bfd",
+      "affected_area_percent": 5.835087048019897,
+      "manual_leaf_mask": false,
+      "quality_warnings": []
+    },
+    {
+      "leaf_id": "synthetic-apple-1",
+      "view_id": "front-flat",
+      "observed_at": "2026-11-18",
+      "model_id": "4e15f7bac667ec14b545a1a909186dbaf39c51e748c294d4afb15e920b8f2bfd",
+      "affected_area_percent": 15.785445500350788,
+      "manual_leaf_mask": false,
+      "quality_warnings": []
+    }
+  ]
+}

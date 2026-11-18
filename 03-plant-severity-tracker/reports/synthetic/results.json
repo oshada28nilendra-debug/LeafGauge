@@ -1,0 +1,58 @@
+{
+  "dataset_kind": "synthetic_smoke_test",
+  "crop": "apple",
+  "description": "Procedural apple-like leaf shapes and inserted brown lesions; not botanical observations",
+  "training_images": 24,
+  "validation_images": 8,
+  "test_images": 12,
+  "fit_and_validation_seconds": 3.903147742999977,
+  "seed": 18,
+  "input_size": 224,
+  "leaf_threshold": 0.65,
+  "lesion_threshold": 0.7,
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.15.0+cpu",
+    "torchvision": "0.29.2+cpu"
+  },
+  "notes": [
+    "Frozen ImageNet-pretrained backbone; supervised linear pixel head fitted to annotated training images",
+    "Threshold grid selected using validation annotations only; test masks are evaluation only",
+    "Affected area is lesion pixels divided by total visible leaf pixels, including lesion pixels",
+    "All segmentation metrics are macro averages across individual images at native annotation resolution",
+    "No disease-type diagnosis, treatment recommendation or pathological severity grade",
+    "No real longitudinal data were collected; history demonstration is synthetic"
+  ],
+  "results": [
+    {
+      "condition": "original",
+      "mean_leaf_dice": 0.9999946853741496,
+      "mean_lesion_dice": 1.0,
+      "mean_lesion_iou": 1.0,
+      "diseased_only_mean_lesion_dice": 1.0,
+      "severity_mae_percentage_points": 0.00012452764957634108,
+      "undefined_severity_count": 0,
+      "median_inference_seconds": 0.15304931849999548
+    },
+    {
+      "condition": "brightness_0.7",
+      "mean_leaf_dice": 0.9964495293935988,
+      "mean_lesion_dice": 0.9951670462032922,
+      "mean_lesion_iou": 0.9908511474633711,
+      "diseased_only_mean_lesion_dice": 0.9951670462032922,
+      "severity_mae_percentage_points": 0.06274298430429703,
+      "undefined_severity_count": 0,
+      "median_inference_seconds": 0.20701608050006826
+    },
+    {
+      "condition": "brightness_1.3",
+      "mean_leaf_dice": 0.9998319816527975,
+      "mean_lesion_dice": 0.9995945404239412,
+      "mean_lesion_iou": 0.9991917993262079,
+      "diseased_only_mean_lesion_dice": 0.9995945404239412,
+      "severity_mae_percentage_points": 0.0073659268886991135,
+      "undefined_severity_count": 0,
+      "median_inference_seconds": 0.16428547600003185
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "day": 0,
+    "data_kind": "synthetic",
+    "truth_affected_area_percent": 0.0,
+    "estimated_affected_area_percent": 0.0,
+    "delta_percentage_points": null
+  },
+  {
+    "day": 1,
+    "data_kind": "synthetic",
+    "truth_affected_area_percent": 5.835831366796352,
+    "estimated_affected_area_percent": 5.835087048019897,
+    "delta_percentage_points": 5.835087048019897
+  },
+  {
+    "day": 2,
+    "data_kind": "synthetic",
+    "truth_affected_area_percent": 15.785445500350788,
+    "estimated_affected_area_percent": 15.785445500350788,
+    "delta_percentage_points": 9.95035845233089
+  }
+]
